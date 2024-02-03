@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: vazirMedium;
+    src: url("./font/fonts/webfonts/Vazirmatn-Medium.woff2");
+  }
+
+  @font-face {
+    font-family: vazirBold;
+    src: url("./font/fonts/webfonts/Vazirmatn-Bold.woff2");
+  }
+
+  @font-face {
+    font-family: vazirExtraBold;
+    src: url("./font/fonts/webfonts/Vazirmatn-ExtraBold.woff2");
+  }
+
+  @font-face {
+    font-family: vazirRegular;
+    src: url("./font/fonts/webfonts/Vazirmatn-Regular.woff2");
+  }
+}
+
+@layer components {
+  .centering {
+    @apply flex justify-center items-center;
+  }
+
+  .bg-header {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgb(229, 231, 235);
+    /* box-shadow: 0 2px 8px rgba(99, 99, 99, 0.3); */
+  }
+
+  .quantity {
+    @apply text-white bg-black size-5 text-sm text-center rounded-full absolute bottom-3 right-6 z-10;
+  }
+
+  .list-menu li {
+    @apply centering mr-5 text-sm cursor-pointer hover:text-red-500 transition-all;
+  }
+}
