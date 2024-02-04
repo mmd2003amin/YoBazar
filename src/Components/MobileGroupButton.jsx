@@ -5,11 +5,13 @@ import { LuUser2 } from "react-icons/lu";
 import { FiHeart } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";
 import { IoMdMenu } from "react-icons/io";
+import { IoClose } from "react-icons/io5";
 
-const MobileGroupButton = () => {
+const MobileGroupButton = ( { showMenu , setShowMenu } ) => {
   return (
-    <div className="centering justify-between bg-white fixed right-0 left-0 bottom-0 py-4 px-8 xs:px-16 md:hidden">
-      <IoMdMenu className="size-6"/>
+    <div className="centering justify-between bg-white z-30 fixed right-0 left-0 bottom-0 py-4 px-8 xs:px-16 md:hidden">
+      <IoMdMenu onClick={() => setShowMenu(true)} className={`${showMenu && "hidden"} size-6`}/>
+      <IoClose onClick={() => setShowMenu(false)} className={`${!showMenu && "hidden"} size-6`}/>  
 
       <GrHomeRounded className="size-6" />
 

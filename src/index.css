@@ -54,4 +54,8 @@
   .social-icons svg {
     @apply size-5 ml-3 transition-all cursor-pointer;
   }
+
+  .list-menu-mobile li {
+    @apply w-10/12 py-4 centering justify-between hover:text-red-500 transition-all
+  }
 }

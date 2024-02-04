@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import MobileGroupButton from "./MobileGroupButton";
+import MobileMenu from "./MobileMenu";
 
 import logo from "../assets/logo.png";
 import { IoIosSearch, IoIosArrowDown } from "react-icons/io";
@@ -8,6 +9,8 @@ import { FiHeart } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";
 
 const Header = () => {
+  const [ showMenu , setShowMenu ] = useState(false);
+
   return (
     <>
       <div className="sticky top-0 centering justify-between bg-header p-2 md:px-6 h-16 md:flex-row-reverse">
@@ -70,7 +73,8 @@ const Header = () => {
         </ul>
       </div>
 
-      <MobileGroupButton />
+      <MobileGroupButton showMenu={showMenu} setShowMenu={setShowMenu}/>
+      <MobileMenu showMenu={showMenu}/>
     </>
   );
 };
