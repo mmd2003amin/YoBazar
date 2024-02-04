@@ -33,7 +33,6 @@
     background: rgba(255, 255, 255, 0.72);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgb(229, 231, 235);
-    /* box-shadow: 0 2px 8px rgba(99, 99, 99, 0.3); */
   }
 
   .quantity {
@@ -42,5 +41,17 @@
 
   .list-menu li {
     @apply centering mr-5 text-sm cursor-pointer hover:text-red-500 transition-all;
+  }
+
+  .icons-footer div {
+    @apply cursor-pointer centering xs:border border-solid border-gray-300 p-4 rounded-md lg:border-none
+  }
+
+  .icons-footer div span {
+    @apply mr-3
+  }
+
+  .social-icons svg {
+    @apply size-5 ml-3 transition-all cursor-pointer;
   }
 }

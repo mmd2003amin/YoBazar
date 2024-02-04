@@ -8,7 +8,7 @@ import { IoMdMenu } from "react-icons/io";
 
 const MobileGroupButton = () => {
   return (
-    <div className="centering justify-between fixed right-0 left-0 bottom-3 px-8 xs:px-16 md:hidden">
+    <div className="centering justify-between bg-white fixed right-0 left-0 bottom-0 py-4 px-8 xs:px-16 md:hidden">
       <IoMdMenu className="size-6"/>
 
       <GrHomeRounded className="size-6" />
