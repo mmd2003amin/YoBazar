@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import MobileGroupButton from "./MobileGroupButton";
-import MobileMenu from "./MobileMenu";
+import MobileGroupButton from "./Responsive/MobileGroupButton";
+import MobileMenu from "./Responsive/MobileMenu";
 import SubMenu from "./SubMenu";
 
 //Data
@@ -15,8 +15,7 @@ import ItemsMenu from "../constant/ItemsMenu";
 
 //Icons
 import logo from "../assets/logo.png";
-import { IoIosSearch } from "react-icons/io";
-import { MdOutlineArrowBackIos } from "react-icons/md";
+import { IoIosSearch , IoIosArrowUp } from "react-icons/io";
 import { LuUser2 } from "react-icons/lu";
 import { FiHeart } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";
@@ -83,10 +82,10 @@ const Header = () => {
               >
                 {item.name}
               </span>
-              <MdOutlineArrowBackIos
+              <IoIosArrowUp
                 className={`${
-                  showSubMenu === item.id && " rotate-[-90deg]"
-                } duration-150 size-2.5 mr-1`}
+                  showSubMenu === item.id && " -rotate-180"
+                } duration-100 size-3 mr-1`}
               />
             </li>
           ))}

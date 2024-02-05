@@ -44,11 +44,11 @@
   }
 
   .icons-footer div {
-    @apply cursor-pointer centering xs:border border-solid border-gray-300 p-4 rounded-md lg:border-none
+    @apply cursor-pointer centering xs:border border-solid border-gray-300 p-4 rounded-md lg:border-none;
   }
 
   .icons-footer div span {
-    @apply mr-3
+    @apply mr-3;
   }
 
   .social-icons svg {
@@ -56,6 +56,10 @@
   }
 
   .list-menu-mobile li {
-    @apply w-10/12 py-4 centering justify-between hover:text-red-500 transition-all
+    @apply w-10/12 py-4 centering justify-between hover:text-red-500 transition-all;
+  }
+
+  .buttons-slider-header {
+    @apply text-white cursor-pointer duration-300 absolute top-[50%] z-50 text-4xl;
   }
 }

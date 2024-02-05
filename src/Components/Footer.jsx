@@ -16,7 +16,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="mt-10 border-t border-gray-200 border-solid p-5 centering flex-col items-start icons-footer xs:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+      <div className="mt-32 border-t border-gray-200 border-solid p-5 centering flex-col items-start icons-footer xs:grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
         <div>
           <BsTruck className="size-6" />
           <span>تحویل رایگان</span>

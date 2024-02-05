@@ -1,5 +1,5 @@
 import React from "react";
-import ItemsMenu from "../constant/ItemsMenu";
+import ItemsMenu from "../../constant/ItemsMenu";
 
 import { IoMdMenu } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
