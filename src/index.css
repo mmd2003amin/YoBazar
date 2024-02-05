@@ -40,7 +40,7 @@
   }
 
   .list-menu li {
-    @apply centering mr-5 text-sm cursor-pointer hover:text-red-500 transition-all;
+    @apply centering mr-5 py-3 text-sm cursor-pointer hover:text-red-500 transition-all;
   }
 
   .icons-footer div {

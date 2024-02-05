@@ -1,19 +1,49 @@
 import React, { useState } from "react";
 import MobileGroupButton from "./MobileGroupButton";
 import MobileMenu from "./MobileMenu";
+import SubMenu from "./SubMenu";
 
+//Data
+import {
+  PagesSubMenu,
+  StoreSubMenu,
+  CategoriesSubMenu,
+  ManSubMenu,
+  WomanSubMenu,
+} from "../constant/SubMenuData";
+import ItemsMenu from "../constant/ItemsMenu";
+
+//Icons
 import logo from "../assets/logo.png";
-import { IoIosSearch, IoIosArrowDown } from "react-icons/io";
+import { IoIosSearch } from "react-icons/io";
+import { MdOutlineArrowBackIos } from "react-icons/md";
 import { LuUser2 } from "react-icons/lu";
 import { FiHeart } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";
 
 const Header = () => {
-  const [ showMenu , setShowMenu ] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+  const [showSubMenu, setShowSubMenu] = useState(false);
+  const [data, setData] = useState({
+    data: PagesSubMenu,
+    nameSub: "صفحات",
+  });
+
+  const showSubMenuHandler = (e , id) => {
+    const name = e.target.innerText;
+
+    name === "صفحات" && setData({ data: PagesSubMenu, nameSub: "صفحات" });
+    name === "فروشگاه" && setData({ data: StoreSubMenu, nameSub: "فروشگاه" });
+    name === "دسته‌ها" && setData({ data: CategoriesSubMenu, nameSub: "دسته‌ها" });
+    name === "مردانه" && setData({ data: ManSubMenu, nameSub: "مردانه" });
+    name === "زنانه" && setData({ data: WomanSubMenu, nameSub: "زنانه" });
+
+    setShowSubMenu(id);
+  };
 
   return (
     <>
-      <div className="sticky top-0 centering justify-between bg-header p-2 md:px-6 h-16 md:flex-row-reverse">
+      <div className="sticky top-0 centering justify-between bg-header p-2 md:px-6 h-16 md:flex-row-reverse z-10">
         <div className="hidden md:centering">
           <LuUser2 className="size-6 mr-4" onClick={() => setShow(true)} />
           <div className="relative">
@@ -42,39 +72,32 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="hidden md:centering w-full h-8 py-5 sticky top-16 shadow-md bg-header">
+      <div className="hidden md:centering w-full h-8 py-5 sticky top-16 shadow-md bg-header z-10">
         <ul className="list-menu centering">
-          <li>
-            <span>صفحات</span>
-            <IoIosArrowDown />
-          </li>
-          <li>
-            <span>فروشگاه</span>
-            <IoIosArrowDown />
-          </li>
-          <li>
-            <span>دسته‌ها</span>
-            <IoIosArrowDown />
-          </li>
-          <li>
-            <span>مردانه</span>
-            <IoIosArrowDown />
-          </li>
-          <li>
-            <span>زنانه</span>
-            <IoIosArrowDown />
-          </li>
-          <li>
-            <span>وبلاگ</span>
-          </li>
-          <li>
-            <span>تماس</span>
-          </li>
+          {ItemsMenu.map((item) => (
+            <li key={item.id}>
+              <span
+                className="py-5"
+                onMouseEnter={(e) => showSubMenuHandler(e ,item.id)}
+                onMouseLeave={() => setShowSubMenu(false)}
+              >
+                {item.name}
+              </span>
+              <MdOutlineArrowBackIos
+                className={`${
+                  showSubMenu === item.id && " rotate-[-90deg]"
+                } duration-150 size-2.5 mr-1`}
+              />
+            </li>
+          ))}
+          <li>وبلاگ</li>
+          <li>تماس</li>
         </ul>
       </div>
 
-      <MobileGroupButton showMenu={showMenu} setShowMenu={setShowMenu}/>
-      <MobileMenu showMenu={showMenu}/>
+      <MobileGroupButton showMenu={showMenu} setShowMenu={setShowMenu} />
+      <MobileMenu showMenu={showMenu} />
+      <SubMenu showSubMenu={showSubMenu} setShowSubMenu={setShowSubMenu} data={data} />
     </>
   );
 };

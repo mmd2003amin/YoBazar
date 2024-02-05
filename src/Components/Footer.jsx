@@ -58,16 +58,16 @@ const Footer = () => {
       </div>
 
       <div className="mb-6">
-        <h1 className="text-center mx-auto text-lg md:text-xl mb-5 xs:text-right w-11/12 xs:w-2/3 sm:w-1/2 lg:w-2/6 xs:mr-[7%]">
+        <h1 className="text-center mx-auto text-lg mb-5 xs:text-right w-11/12 xs:w-2/3 sm:w-1/2 lg:w-2/6 xs:mr-[7%]">
           به خبرنامه ما بپیوندید و برای اولین سفارش خود ۲۰ دلار دریافت کنید
         </h1>
         <div className="centering flex-col lg:flex-row lg:justify-start md:items-start lg:items-center w-11/12 mx-auto">
           <input
-            className="w-full md:w-1/2 h-[52px] p-2 border border-gray-200 border-solid rounded-3xl outline-none"
+            className="w-full md:w-1/2 lg:w-1/3 h-[52px] lg:h-10 lg:text-sm p-2 border border-gray-200 border-solid rounded-3xl outline-none"
             type="text"
             placeholder="آدرس ایمیل..."
           />
-          <button className="w-full md:w-1/2 lg:w-40 h-[52px] p-2  bg-red-500 hover:bg-red-600 transition-all text-white mt-2 lg:mr-2 rounded-3xl">
+          <button className="w-full md:w-1/2 lg:w-32 h-[52px] lg:h-10 lg:text-sm p-2  bg-red-500 hover:bg-red-600 transition-all text-white mt-2 lg:mr-2 rounded-3xl">
             اشتراک
           </button>
         </div>
