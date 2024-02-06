@@ -17,16 +17,16 @@ const SliderHeader = () => {
           prevEl: ".button-prev-slide",
         }}
         autoplay={{
-          delay: 5000,
+          delay: 4000,
           disableOnInteraction: false,
         }}
       >
         {sliderHeaderData.map((item) => (
-          <SwiperSlide>
+          <SwiperSlide key={item.id}>
             <img
               src={item.image}
               alt="slider"
-              className="w-full h-[30rem] relative cursor-pointer"
+              className="w-full h-44 md:h-80 lg:h-[30rem] relative cursor-pointer"
             />
           </SwiperSlide>
         ))}

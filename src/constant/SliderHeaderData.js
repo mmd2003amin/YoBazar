@@ -5,11 +5,11 @@ import image4 from "../assets/SliderHeader/4.webp";
 import image5 from "../assets/SliderHeader/5.webp";
 
 const sliderHeaderData = [
-  { image: image1 },
-  { image: image2 },
-  { image: image3 },
-  { image: image4 },
-  { image: image5 },
+  { id: 1, image: image1 },
+  { id: 2, image: image2 },
+  { id: 3, image: image3 },
+  { id: 4, image: image4 },
+  { id: 5, image: image5 },
 ];
 
 export default sliderHeaderData;

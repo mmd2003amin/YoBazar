@@ -60,6 +60,6 @@
   }
 
   .buttons-slider-header {
-    @apply text-white cursor-pointer duration-300 absolute top-[50%] z-50 text-4xl;
+    @apply text-white hover:scale-125 cursor-pointer duration-300 absolute top-[50%] z-50 text-4xl;
   }
 }
