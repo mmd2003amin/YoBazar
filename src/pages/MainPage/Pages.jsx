@@ -3,7 +3,7 @@ import pagesSectionData from "../../constant/pagesSectionData";
 
 const Pages = () => {
   return (
-    <div className="grid grid-cols-3 md:grid-cols-6 gap-10 justify-center w-4/5 md:w-2/3 mx-auto mt-12">
+    <div className="grid grid-cols-3 md:grid-cols-6 gap-10 justify-center w-4/5 md:w-2/3 mx-auto my-14">
       {pagesSectionData.map((item) => (
         <div
           key={item.id}

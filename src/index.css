@@ -60,6 +60,10 @@
   }
 
   .buttons-slider-header {
-    @apply text-white hover:scale-125 cursor-pointer duration-300 absolute top-[50%] z-50 text-4xl;
+    @apply text-white hover:scale-125 cursor-pointer duration-300 absolute top-[50%] z-50 hidden sm:block text-xl md:text-4xl;
+  }
+
+  .banner-container {
+    @apply text-white centering flex-col md:flex-row w-11/12 md:w-[99%] mx-auto mt-2;
   }
 }
