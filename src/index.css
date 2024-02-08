@@ -66,4 +66,20 @@
   .banner-container {
     @apply text-white centering flex-col md:flex-row w-11/12 md:w-[99%] mx-auto mt-2;
   }
+
+  .add-to-cart {
+    @apply absolute bottom-0 w-full bg-cyan-800 hover:bg-red-600 h-10 centering rounded-b-md text-white transition-all;
+  }
+
+  .details-cards {
+    @apply centering items-end flex-col absolute top-3 left-3 duration-300;
+  }
+
+  .title-details-cards {
+    @apply hidden group-hover:flex ml-1 group-hover:bg-black group-hover:text-white w-fit h-8 p-1 px-3 rounded-2xl text-sm transition-all;
+  }
+
+  .icon-details-cards {
+    @apply rounded-full bg-white group-hover:bg-black shadow-lg group-hover:text-white size-8 centering p-1 transition-all;
+  }
 }

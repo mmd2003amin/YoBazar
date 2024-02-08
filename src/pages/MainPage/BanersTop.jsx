@@ -1,10 +1,10 @@
 import React from "react";
 import Banner from "./Banner";
-import bannerData from "../../constant/bannerData";
+import bannerTopData from "../../constant/bannerData";
 
 const BannersTop = () => {
-  const data1 = bannerData.slice(0, 3);
-  const data2 = bannerData.slice(3, 5);
+  const data1 = bannerTopData.slice(0, 3);
+  const data2 = bannerTopData.slice(3, 5);
 
   return (
     <>
