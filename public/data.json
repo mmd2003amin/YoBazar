@@ -17,25 +17,25 @@
         "اطلاعات دقیق سایز قسمت راهنمای اندازه درج شده است"
       ],
       "price": "648,000 تومان",
-      "price-discount": "518,000 تومان",
+      "priceDiscount": "518,000 تومان",
       "discount": "20%"
     },
     {
       "id": 2,
-      "image1": "/assets/amazingSlider/2.webp",
-      "image2": "/assets/amazingSlider/2-hover.webp",
-      "image3": "/assets/amazingSlider/2-bron.webp",
-      "name": "پافر لیزا",
+      "image1": "/assets/amazingSlider/5.jpg",
+      "image2": "/assets/amazingSlider/5-hover.jpg",
+      "image3": "/assets/amazingSlider/5-white.jpg",
+      "image4": "/assets/amazingSlider/5-back.jpg",
+      "name": "تیشرت و شلوارک مردانه",
       "items": [
-        "جنس سیلیکونی",
-        "جلو بسته دکمه دارد",
-        "فری سایز، کمربند دارد",
-        "اطلاعات دقیق سایز قسمت راهنمای اندازه درج شده است",
-        "لطفا هنگام سفارش به راهنمای سایز دقت کنید"
+        "نوع شستشو دستی و ماشین",
+        "جنس الیاف پنبه",
+        "رنگبندی سفید و مشکی",
+        "نوع لباس ست تیشرت و شلوارک"
       ],
-      "price": "740,000 تومان",
-      "price-discount": "636,000 تومان",
-      "discount": "14%"
+      "price": "850000 تومان",
+      "priceDiscount": "569000 تومان",
+      "discount": "33%"
     },
     {
       "id": 3,
@@ -51,8 +51,8 @@
         "لطفا هنگام سفارش به راهنمای سایز دقت کنید",
         "اطلاعات دقیق سایز قسمت راهنمای اندازه درج شده است"
       ],
-      "price": "623,000 تومان",
-      "price-discount": "498,000 تومان",
+      "price": "623000 تومان",
+      "priceDiscount": "498000 تومان",
       "discount": "20%"
     },
     {
@@ -71,25 +71,25 @@
         "نحوه شستشو به صورت مجزا یا با رنگ‌های مشابه"
       ],
       "price": "3499000 تومان",
-      "price-discount": "1575000 تومان",
+      "priceDiscount": "1575000 تومان",
       "discount": "55%"
     },
     {
       "id": 5,
-      "image1": "/assets/amazingSlider/5.jpg",
-      "image2": "/assets/amazingSlider/5-hover.jpg",
-      "image3": "/assets/amazingSlider/5-white.jpg",
-      "image4": "/assets/amazingSlider/5-back.jpg",
-      "name": "تیشرت و شلوارک مردانه",
+      "image1": "/assets/amazingSlider/2.webp",
+      "image2": "/assets/amazingSlider/2-hover.webp",
+      "image3": "/assets/amazingSlider/2-bron.webp",
+      "name": "پافر لیزا",
       "items": [
-        "نوع شستشو دستی و ماشین",
-        "جنس الیاف پنبه",
-        "رنگبندی سفید و مشکی",
-        "نوع لباس ست تیشرت و شلوارک"
+        "جنس سیلیکونی",
+        "جلو بسته دکمه دارد",
+        "فری سایز، کمربند دارد",
+        "اطلاعات دقیق سایز قسمت راهنمای اندازه درج شده است",
+        "لطفا هنگام سفارش به راهنمای سایز دقت کنید"
       ],
-      "price": "850000 تومان",
-      "price-discount": "569000 تومان",
-      "discount": "33%"
+      "price": "740,000 تومان",
+      "priceDiscount": "636,000 تومان",
+      "discount": "14%"
     },
     {
       "id": 6,
@@ -105,7 +105,7 @@
         "نوع لباس هودی مردانه"
       ],
       "price": "730000 تومان",
-      "price-discount": "693000 تومان",
+      "priceDiscount": "693000 تومان",
       "discount": "5%"
     }
   ]

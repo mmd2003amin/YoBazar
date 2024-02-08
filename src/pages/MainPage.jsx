@@ -2,6 +2,7 @@ import React from "react";
 import SliderHeader from "./MainPage/SliderHeader";
 import Pages from "./MainPage/Pages";
 import BannersTop from "./MainPage/BanersTop";
+import AmazingSlider from "./MainPage/AmazingSlider";
 
 const MainPage = () => {
   return (
@@ -9,6 +10,7 @@ const MainPage = () => {
       <SliderHeader />
       <Pages />
       <BannersTop />
+      <AmazingSlider />
     </div>
   );
 };
