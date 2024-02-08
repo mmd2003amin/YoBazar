@@ -1,0 +1,112 @@
+{
+  "amazing": [
+    {
+      "id": 1,
+      "image1": "/assets/amazingSlider/1.webp",
+      "image2": "/assets/amazingSlider/1-hover.webp",
+      "image3": "/assets/amazingSlider/1-white.webp",
+      "image4": "/assets/amazingSlider/1-yellow.webp",
+      "image5": "/assets/amazingSlider/1-red.webp",
+      "image6": "/assets/amazingSlider/1-black.webp",
+      "name": "کاپشن مهسا",
+      "items": [
+        "جنس شمعی امبوردی",
+        "داخل پشم شیشه دارد",
+        "خرج کار چرم ، کمر گتر دار",
+        "فری سایز ، دو جیب",
+        "اطلاعات دقیق سایز قسمت راهنمای اندازه درج شده است"
+      ],
+      "price": "648,000 تومان",
+      "price-discount": "518,000 تومان",
+      "discount": "20%"
+    },
+    {
+      "id": 2,
+      "image1": "/assets/amazingSlider/2.webp",
+      "image2": "/assets/amazingSlider/2-hover.webp",
+      "image3": "/assets/amazingSlider/2-bron.webp",
+      "name": "پافر لیزا",
+      "items": [
+        "جنس سیلیکونی",
+        "جلو بسته دکمه دارد",
+        "فری سایز، کمربند دارد",
+        "اطلاعات دقیق سایز قسمت راهنمای اندازه درج شده است",
+        "لطفا هنگام سفارش به راهنمای سایز دقت کنید"
+      ],
+      "price": "740,000 تومان",
+      "price-discount": "636,000 تومان",
+      "discount": "14%"
+    },
+    {
+      "id": 3,
+      "image1": "/assets/amazingSlider/3.webp",
+      "image2": "/assets/amazingSlider/3-hover.webp",
+      "image3": "/assets/amazingSlider/3-bron.webp",
+      "image4": "/assets/amazingSlider/3-green.webp",
+      "image5": "/assets/amazingSlider/3-wormy.webp",
+      "name": "کت تیدا",
+      "items": [
+        "جنس فوتر",
+        "دو جیب ، جلو باز",
+        "لطفا هنگام سفارش به راهنمای سایز دقت کنید",
+        "اطلاعات دقیق سایز قسمت راهنمای اندازه درج شده است"
+      ],
+      "price": "623,000 تومان",
+      "price-discount": "498,000 تومان",
+      "discount": "20%"
+    },
+    {
+      "id": 4,
+      "image1": "/assets/amazingSlider/4.webp",
+      "image2": "/assets/amazingSlider/4-hover.webp",
+      "image3": "/assets/amazingSlider/4-blue.webp",
+      "image4": "/assets/amazingSlider/4-gray.webp",
+      "image5": "/assets/amazingSlider/4-back.webp",
+      "name": "هودی مردانه بالون Balloon",
+      "items": [
+        "جنس نخ‌پنبه",
+        "مناسب برای فصول سرد",
+        "برند بالون",
+        "کشور مبدا برند ایران",
+        "نحوه شستشو به صورت مجزا یا با رنگ‌های مشابه"
+      ],
+      "price": "3499000 تومان",
+      "price-discount": "1575000 تومان",
+      "discount": "55%"
+    },
+    {
+      "id": 5,
+      "image1": "/assets/amazingSlider/5.jpg",
+      "image2": "/assets/amazingSlider/5-hover.jpg",
+      "image3": "/assets/amazingSlider/5-white.jpg",
+      "image4": "/assets/amazingSlider/5-back.jpg",
+      "name": "تیشرت و شلوارک مردانه",
+      "items": [
+        "نوع شستشو دستی و ماشین",
+        "جنس الیاف پنبه",
+        "رنگبندی سفید و مشکی",
+        "نوع لباس ست تیشرت و شلوارک"
+      ],
+      "price": "850000 تومان",
+      "price-discount": "569000 تومان",
+      "discount": "33%"
+    },
+    {
+      "id": 6,
+      "image1": "/assets/amazingSlider/6.jpg",
+      "image2": "/assets/amazingSlider/6-hover.webp",
+      "image3": "/assets/amazingSlider/6-one.webp",
+      "image4": "/assets/amazingSlider/6-tow.jpg",
+      "name": "هودی مردانه",
+      "items": [
+        "طرح سه تیکه",
+        "کیفیت پارچه عالی ",
+        "تنخور رگولار فیت",
+        "نوع لباس هودی مردانه"
+      ],
+      "price": "730000 تومان",
+      "price-discount": "693000 تومان",
+      "discount": "5%"
+    }
+  ]
+}
