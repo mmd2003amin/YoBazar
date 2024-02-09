@@ -12,4 +12,4 @@ const bannerTopData = [
   { id: 5, image: image5, title: "استایل خیابونی" },
 ];
 
-export default bannerData;
+export default bannerTopData;

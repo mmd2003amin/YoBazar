@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
-import bannerTopData from "../../constant/bannerData";
+import bannerTopData from "../../constant/bannerTopData";
 
 const BannersTop = () => {
   const data1 = bannerTopData.slice(0, 3);

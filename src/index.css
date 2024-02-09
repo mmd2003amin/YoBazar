@@ -82,4 +82,12 @@
   .icon-details-cards {
     @apply rounded-full bg-white group-hover:bg-black shadow-lg group-hover:text-white size-8 centering p-1 transition-all;
   }
+
+  .banner-bottom {
+    @apply mb-2 md:mb-0 h-60 md:h-72 rounded-md w-full md:w-[43%];
+  }
+
+  .box-banners-bottom div{
+    @apply centering flex-col md:flex-row w-full mb-1.5;
+  }
 }

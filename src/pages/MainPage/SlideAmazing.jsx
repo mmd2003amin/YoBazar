@@ -10,11 +10,11 @@ const SlideAmazing = ({ data }) => {
         {data.discount}
       </p>
 
-      <div className="overflow-hidden relative h-72 mb-1">
+      <div className="overflow-hidden relative h-72 mb-1 rounded-md">
         <img
           src={hover ? data.image2 : data.image1}
           alt={data.name}
-          className="w-full h-full rounded-md"
+          className={`w-full h-full rounded-md ${hover && "scale-105"} duration-300`}
         />
 
         <div className={`details-cards ${!hover && "-left-9"}`}>
