@@ -9,7 +9,7 @@ import SlideAmazing from "./SlideAmazing";
 
 const AmazingSlider = () => {
   const dispatch = useDispatch();
-  const data = useSelector((state) => state.data.data.amazing);
+  const data = useSelector((state) => state.data.products.amazing);
   const [showButton, setShowButton] = useState(null);
 
   useEffect(() => {

@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
 const initialState = {
-  data: [],
+  products: [],
   isLoading: false,
   error: "",
 };
@@ -26,13 +26,13 @@ const dataSlice = createSlice({
 
     builder.addCase(fetchData.fulfilled, (state, action) => {
       state.isLoading = false,
-      state.data = action.payload,
+      state.products = action.payload,
       state.error = ""
     }),
 
     builder.addCase(fetchData.rejected, (state, action) => {
       state.isLoading = false,
-      state.data = [],
+      state.products = [],
       state.error = action.error.message;
     });
   },

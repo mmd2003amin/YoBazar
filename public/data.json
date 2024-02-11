@@ -2,13 +2,13 @@
   "amazing": [
     {
       "id": 1,
+      "name": "کاپشن مهسا",
       "image1": "/assets/amazingSlider/1.webp",
       "image2": "/assets/amazingSlider/1-hover.webp",
       "image3": "/assets/amazingSlider/1-white.webp",
       "image4": "/assets/amazingSlider/1-yellow.webp",
       "image5": "/assets/amazingSlider/1-red.webp",
       "image6": "/assets/amazingSlider/1-black.webp",
-      "name": "کاپشن مهسا",
       "items": [
         "جنس شمعی امبوردی",
         "داخل پشم شیشه دارد",
@@ -107,6 +107,1102 @@
       "price": "730000 تومان",
       "priceDiscount": "693000 تومان",
       "discount": "5%"
+    }
+  ],
+
+  "cardsMan": [
+    {
+      "id": 6,
+      "name": "شلوار جین مردانه مام",
+      "image1": "/assets/man/pants/1.jpg",
+      "image2": "/assets/man/pants/1-hover.jpg",
+      "image3": "/assets/man/pants/1-black.jpg",
+      "image4": "/assets/man/pants/1-white.jpg",
+      "items": [
+        "جنس پارچه  لی پنبه",
+        "طرح پارچه زاپدار",
+        "قد متوسط",
+        "استایل روزمره,اسپرت",
+        "فاق متوسط",
+        "فصل مناسب تمام فصل ها"
+      ],
+      "price": "496000 تومان"
+    },
+    {
+      "id": 8,
+      "name": "شلوار جین مردانه",
+      "image1": "/assets/man/pants/2.jpg",
+      "image2": "/assets/man/pants/2--hover.jpg",
+      "image3": "/assets/man/pants/2-black.jpg",
+      "image4": "/assets/man/pants/2-white.jpg",
+      "items": [
+        "جنس پارچه لی کشی",
+        "طرح ساده",
+        "استایل روزمره,اسپرت",
+        "فاق متوسط",
+        "فصل مناسب تمام فصل ها"
+      ],
+      "price": "320000 تومان"
+    },
+    {
+      "id": 9,
+      "name": "شلوار جین مردانه",
+      "image1": "/assets/man/pants/3.jpg",
+      "image2": "/assets/man/pants/3-hover.jpg",
+      "image3": "/assets/man/pants/3-black.jpg",
+      "image4": "/assets/man/pants/3-white.jpg",
+      "items": [
+        "جنس پارچه لی پنبه کش",
+        "طرح پارچه زاپدار",
+        "نحوه بسته شدن دکمه",
+        "فاق متوسط",
+        "فصل مناسب تمام فصل ها"
+      ],
+      "price": "432000 تومان"
+    },
+    {
+      "id": 10,
+      "name": "شلوار مردانه نایک",
+      "image1": "/assets/man/pants/4.jpg",
+      "image2": "/assets/man/pants/4-hover.jpg",
+      "image3": "/assets/man/pants/4-black.jpg",
+      "image4": "/assets/man/pants/4-white.jpg",
+      "items": [
+        "جنس پارچه:دورس ملانژ کشی",
+        "طرح ساده",
+        "قد بلند",
+        "استایل روزمره,اسپرت",
+        "فصل مناسب تمام فصل ها"
+      ],
+      "price": "132000 تومان"
+    },
+    {
+      "id": 11,
+      "name": "پیراهن مردانه لینن",
+      "image1": "/assets/man/shirt/1.jpg",
+      "image2": "/assets/man/shirt/1-hover.jpg",
+      "image3": "/assets/man/shirt/1-black.jpg",
+      "image4": "/assets/man/shirt/1-white.jpg",
+      "items": [
+        "جنس پارچه لینن",
+        "طرح پارچه ساده",
+        "نوع استفاده روزمره",
+        "نحوه بسته شدن دکمه(مخفی)"
+      ],
+      "price": "338000"
+    },
+    {
+      "id": 12,
+      "name": "تیشرت مردانه",
+      "image1": "/assets/man/shirt/2.jpg",
+      "image2": "/assets/man/shirt/2-hover.jpg",
+      "image3": "/assets/man/shirt/2-black.jpg",
+      "image4": "/assets/man/shirt/2-white.jpg",
+      "items": [
+        "جنس پارچه بیسکویتی کشی",
+        "طرح پارچه طرحدار",
+        "نوع استفاده روزمره",
+        "توضیحات  مچ آستین تیشرت بین کشبافت و پارچه متغیر می باشد."
+      ],
+      "price": "265000"
+    },
+    {
+      "id": 13,
+      "name": "تیشرت مردانه نایک",
+      "image1": "/assets/man/shirt/3.jpg",
+      "image2": "/assets/man/shirt/3-hover.jpg",
+      "image3": "/assets/man/shirt/3-black.jpg",
+      "image4": "/assets/man/shirt/3-white.jpg",
+      "items": [
+        "جنس پارچه نخ پنبه کشی",
+        "طرح پارچه ساده",
+        "نوع استفاده روزمره",
+        "توضیحات  مچ آستین تیشرت بین کشبافت و پارچه متغیر می باشد."
+      ],
+      "price": "185000"
+    },
+    {
+      "id": 14,
+      "name": "پیراهن مردانه زاپدار",
+      "image1": "/assets/man/shirt/4.jpg",
+      "image2": "/assets/man/shirt/4-hover.jpg",
+      "image3": "/assets/man/shirt/4-black.jpg",
+      "image4": "/assets/man/shirt/4-white.jpg",
+      "items": [
+        "جنس پارچه کتان لی",
+        "طرح پارچه زاپدار",
+        "نوع استفاده روزمره",
+        "نحوه بسته شدن دکمه پرسی",
+        "یقه یقه پیراهنی"
+      ],
+      "price": "515000"
+    },
+
+    {
+      "id": 15,
+      "name": "بافت مردانه یقه هفت پولو",
+      "image1": "/assets/man/shirt/5.jpg",
+      "image2": "/assets/man/shirt/5-hover.jpg",
+      "image3": "/assets/man/shirt/5-black.jpg",
+      "image4": "/assets/man/shirt/5-white.jpg",
+      "items": [
+        "جنس بافت کشی",
+        "طرح بافت ساده",
+        "نوع استفاده روزمره",
+        "فرم معمولی",
+        "جنس بافت کشی"
+      ],
+      "price": "720000"
+    },
+    {
+      "id": 16,
+      "name": "",
+      "image1": "/assets/man/shirt/6.jpg",
+      "image2": "/assets/man/shirt/6-hover.jpg",
+      "image3": "/assets/man/shirt/6-black.jpg",
+      "image4": "/assets/man/shirt/6-white.jpg",
+      "items": [
+        "جنس پارچه بافت کشی",
+        "طرح بافت ساده",
+        "نوع استفاده روزمره",
+        "نوع محصول بافت"
+      ],
+      "price": "460000"
+    },
+    {
+      "id": 17,
+      "name": "بافت مردانه یقه هفت",
+      "image1": "/assets/man/shirt/7.jpg",
+      "image2": "/assets/man/shirt/7-hover.jpg",
+      "image3": "/assets/man/shirt/7-black.jpg",
+      "image4": "/assets/man/shirt/7-white.jpg",
+      "items": [
+        "جنس بافت کشی",
+        "طرح بافت ساده",
+        "نوع استفاده روزمره",
+        "نوع محصول بافت",
+        "فرم معمولی"
+      ],
+      "price": "580000"
+    },
+    {
+      "id": 18,
+      "name": "بافت مردانه یقه اسکی",
+      "image1": "/assets/man/shirt/8.jpg",
+      "image2": "/assets/man/shirt/8-hover.jpg",
+      "image3": "/assets/man/shirt/8-black.jpg",
+      "image4": "/assets/man/shirt/8-white.jpg",
+      "items": [
+        "جنس پارچه بافت ضخیم کشی",
+        "طرح پارچه راه راه",
+        "نوع استفاده روزمره",
+        "نوع محصول بافت",
+        "یقه گرد"
+      ],
+      "price": "460000"
+    }
+  ],
+
+  "cardsWoman": [
+    {
+      "id": 19,
+      "name": "شلوار لی دخترانه ذغالی",
+      "image1": "/assets/woman/pants/1.jpg",
+      "image2": "/assets/woman/pants/1-hover.jpg",
+      "image3": "/assets/woman/pants/1-black.jpg",
+      "items": [
+        "جنس پارچه لی کشی",
+        "طرح پارچه ساده",
+        "نوع استفاده روزمره",
+        "نحوه بسته شدن کمرکشی",
+        "نوع فاق متوسط"
+      ],
+      "price": "860000"
+    },
+    {
+      "id": 20,
+      "name": "شلوار جین بوت کات",
+      "image1": "/assets/woman/pants/2.jpg",
+      "image2": "/assets/woman/pants/2-hover.jpg",
+      "image3": "/assets/woman/pants/2-black.jpg",
+      "image4": "/assets/woman/pants/2-white.jpg",
+      "items": [
+        "جنس پارچه لی پنبه کش",
+        "طرح پارچه زاپدار",
+        "نوع استفاده روزمره",
+        "نحوه بسته شدن دکمه و زیپ",
+        "نوع فاق بلند"
+      ],
+      "price": "559000"
+    },
+    {
+      "id": 21,
+      "name": "شلوار جین اسکینی",
+      "image1": "/assets/woman/pants/3.jpg",
+      "image2": "/assets/woman/pants/3-hover.jpg",
+      "image3": "/assets/woman/pants/3-black.jpg",
+      "image4": "/assets/woman/pants/3-white.jpg",
+      "items": [
+        "جنس پارچه لی پنبه کش",
+        "طرح پارچه زاپدار",
+        "نوع استفاده روزمره",
+        "نحوه بسته شدن دکمه و زیپ",
+        "نوع فاق متوسط"
+      ],
+      "price": "475000"
+    },
+    {
+      "id": 22,
+      "name": "شلوار جین مام دخترانه",
+      "image1": "/assets/woman/pants/4.jpg",
+      "image2": "/assets/woman/pants/4-hover.jpg",
+      "image3": "/assets/woman/pants/4-black.jpg",
+      "image4": "/assets/woman/pants/4-white.jpg",
+      "items": [
+        "جنس پارچه لی پنبه",
+        "طرح پارچه زاپدار",
+        "نوع استفاده روزمره",
+        "نحوه بسته شدن دکمه و زیپ",
+        "نوع فاق بلند"
+      ],
+      "price": "445000"
+    },
+
+    {
+      "id": 23,
+      "name": "مانتو کتان",
+      "image1": "/assets/woman/manto/1.jpg",
+      "image2": "/assets/woman/manto/1-hover.jpg",
+      "image3": "/assets/woman/manto/1-black.jpg",
+      "image4": "/assets/woman/manto/1-white.jpg",
+      "items": [
+        "جنس پارچه کتان",
+        "طرح پارچه ساده",
+        "نحوه بسته شدن دکمه",
+        "فرم معمولی"
+      ],
+      "price": "398000"
+    },
+    {
+      "id": 24,
+      "name": "مانتو کتی ژاکارد",
+      "image1": "/assets/woman/manto/2.jpg",
+      "image2": "/assets/woman/manto/2-hover.jpg",
+      "image3": "/assets/woman/manto/2-black.jpg",
+      "image4": "/assets/woman/manto/2-white.jpg",
+      "items": [
+        "جنس پارچه ژاکارد",
+        "طرح پارچه ساده",
+        "نحوه بسته شدن دکمه",
+        "فرم معمولی"
+      ],
+      "price": "529000"
+    },
+    {
+      "id": 25,
+      "name": "شومیز دوتیکه",
+      "image1": "/assets/woman/manto/3.jpg",
+      "image2": "/assets/woman/manto/3-hover.jpg",
+      "image3": "/assets/woman/manto/3-black.jpg",
+      "image4": "/assets/woman/manto/3-white.jpg",
+      "items": [
+        "جنس پارچه بیسکوییتی کشی،نخ",
+        "طرح پارچه ساده",
+        "فصل مناسب تمام فصل ها",
+        "فرم معمولی"
+      ],
+      "price": "199000"
+    },
+    {
+      "id": 26,
+      "name": "شومیز زبرا",
+      "image1": "/assets/woman/manto/4.jpg",
+      "image2": "/assets/woman/manto/4-hover.jpg",
+      "image3": "/assets/woman/manto/4-black.jpg",
+      "image4": "/assets/woman/manto/4-white.jpg",
+      "items": [
+        "جنس پارچه آیوا",
+        "طرح پارچه ساده",
+        "فصل مناسب بهار, تابستان",
+        "فرم معمولی"
+      ],
+      "price": "249000"
+    },
+
+    {
+      "id": 27,
+      "name": "پافر چرم کلاهدار",
+      "image1": "/assets/woman/coat/1.jpg",
+      "image2": "/assets/woman/coat/1-hover.jpg",
+      "image3": "/assets/woman/coat/1-black.jpg",
+      "items": [
+        "جنس پارچه چرم صنعتی،داخل پشم شیشه",
+        "طرح پارچه ساده",
+        "نوع استفاده روزمره",
+        "کلاه دار"
+      ],
+      "price": "425000"
+    },
+    {
+      "id": 28,
+      "name": "وست پافر",
+      "image1": "/assets/woman/coat/2.jpg",
+      "image2": "/assets/woman/coat/2-hover.jpg",
+      "image3": "/assets/woman/coat/2-black.jpg",
+      "image4": "/assets/woman/coat/2-white.jpg",
+      "items": [
+        "جنس پارچه کتان زارا،داخل پشم شیشه،آستر",
+        "طرح پارچه ساده",
+        "نوع استفاده روزمره",
+        "ّبدون کلاه"
+      ],
+      "price": "320000"
+    },
+    {
+      "id": 29,
+      "name": "ترنچ کت بلند",
+      "image1": "/assets/woman/coat/3.jpg",
+      "image2": "/assets/woman/coat/3-hover.jpg",
+      "image3": "/assets/woman/coat/3-black.jpg",
+      "image4": "/assets/woman/coat/3-white.jpg",
+      "items": [
+        "جنس پارچه کتان زارا,داخل آستر",
+        "طرح پارچه ساده",
+        "نوع استفاده روزمره",
+        "نحوه بسته شدن دکمه,کمربند"
+      ],
+      "price": "819000"
+    },
+    {
+      "id": 30,
+      "name": "شکت دخترانه",
+      "image1": "/assets/woman/coat/4.jpg",
+      "image2": "/assets/woman/coat/4-hover.jpg",
+      "image3": "/assets/woman/coat/4-black.jpg",
+      "image4": "/assets/woman/coat/4-white.jpg",
+      "items": [
+        "جنس پارچه پشمی گرم بالا",
+        "طرح پارچه طرح دار",
+        "نوع استفاده روزمره",
+        "نحوه بسته شدن دکمه"
+      ],
+      "price": "320000"
+    }
+  ],
+
+  "glasses": [
+    {
+      "id": 31,
+      "name": "عینک مردانه RUO BO",
+      "image1": "/assets/glasses/1.jpg",
+      "image2": "/assets/glasses/1-hover.jpg",
+      "image3": "/assets/glasses/1-black.jpg",
+      "image4": "/assets/glasses/1-white.jpg",
+      "items": [
+        "فرم فریم مستطیل",
+        "رنگ فریم مشکی",
+        "رنگ لنز دودی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "92000"
+    },
+    {
+      "id": 32,
+      "name": "عینک آفتابی GENTEL MONSTER",
+      "image1": "/assets/glasses/2.jpg",
+      "image2": "/assets/glasses/2-hover.jpg",
+      "image3": "/assets/glasses/2-black.jpg",
+      "image4": "/assets/glasses/2-white.jpg",
+      "items": [
+        "فرم فریم گرد",
+        "رنگ فریم دو رنگ",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "205000"
+    },
+    {
+      "id": 33,
+      "name": "عینک ضد اشعه گرد",
+      "image1": "/assets/glasses/3.jpg",
+      "image2": "/assets/glasses/3-hover.jpg",
+      "image3": "/assets/glasses/3-black.jpg",
+      "image4": "/assets/glasses/3-white.jpg",
+      "items": [
+        "فرم فریم گرد",
+        "رنگبندی فریم 3 رنگ",
+        "نوع استفاده روزمره،کار با رایانه",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "98000"
+    },
+    {
+      "id": 34,
+      "name": "عینک آفتابی Dior",
+      "image1": "/assets/glasses/4.jpg",
+      "image2": "/assets/glasses/4-hover.jpg",
+      "image3": "/assets/glasses/4-black.jpg",
+      "image4": "/assets/glasses/4-white.jpg",
+      "items": [
+        "فرم فریم شش ضلعی",
+        "رنگبندی فریم 3 رنگ",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "189000"
+    },
+    {
+      "id": 35,
+      "name": "عینک نقاب‌دار CHANEL",
+      "image1": "/assets/glasses/5.jpg",
+      "image2": "/assets/glasses/5-hover.jpg",
+      "image3": "/assets/glasses/5-black.jpg",
+      "image4": "/assets/glasses/5-white.jpg",
+      "items": [
+        "فرم فریم گرد",
+        "تعداد رنگ فریم 2 رنگ",
+        "نوع استفاده آفتابی،ساحلی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "232000"
+    },
+    {
+      "id": 36,
+      "name": "عینک آفتابی دخترانه DB",
+      "image1": "/assets/glasses/6.jpg",
+      "image2": "/assets/glasses/6-hover.jpg",
+      "items": [
+        "فرم فریم مستطیل",
+        "محافظ UV دارد",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": ""
+    },
+    {
+      "id": 37,
+      "name": "عینک آفتابی دخترانه BURBERRY",
+      "image1": "/assets/glasses/7.jpg",
+      "image2": "/assets/glasses/7-hover.jpg",
+      "image3": "/assets/glasses/7-black.jpg",
+      "image4": "/assets/glasses/7-white.jpg",
+      "items": [
+        "فرم فریم مربع",
+        "محافظ UV دارد",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "189000"
+    },
+    {
+      "id": 38,
+      "name": "عینک آفتابی LV قرمز",
+      "image1": "/assets/glasses/8.jpg",
+      "image2": "/assets/glasses/8-hover.jpg",
+      "image3": "/assets/glasses/8-black.jpg",
+      "image4": "/assets/glasses/8-white.jpg",
+      "items": [
+        "فرم فریم مربع",
+        "رنگ فریم قرمز",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "140000"
+    },
+    {
+      "id": 39,
+      "name": "عینک آفتابی Dior",
+      "image1": "/assets/glasses/9.jpg",
+      "image2": "/assets/glasses/9-hover.jpg",
+      "image3": "/assets/glasses/9-black.jpg",
+      "items": [
+        "فرم فریم شش ضلعی",
+        "رنگ فریم مشکی",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "310000"
+    },
+    {
+      "id": 40,
+      "name": "عینک دخترانه CELINE",
+      "image1": "/assets/glasses/10.jpg",
+      "image2": "/assets/glasses/10-hover.jpg",
+      "image3": "/assets/glasses/10-black.jpg",
+      "image4": "/assets/glasses/10-white.jpg",
+      "items": [
+        "فرم فریم مربع",
+        "رنگ بندی لنز سه رنگ",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "280000"
+    },
+    {
+      "id": 41,
+      "name": "عینک آفتابی GENTEL MONSTER",
+      "image1": "/assets/glasses/11.jpg",
+      "image2": "/assets/glasses/11-hover.jpg",
+      "image3": "/assets/glasses/11-black.jpg",
+      "image4": "/assets/glasses/11-white.jpg",
+      "items": [
+        "فرم فریم گرد",
+        "رنگ فریم 4 رنگ",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "202000"
+    },
+    {
+      "id": 42,
+      "name": "عینک آفتابی GENTEL MONSTER",
+      "image1": "/assets/glasses/12.jpg",
+      "image2": "/assets/glasses/12-hover.jpg",
+      "image3": "/assets/glasses/12-black.jpg",
+      "image4": "/assets/glasses/12-white.jpg",
+      "items": [
+        "فرم فریم گرد",
+        "رنگبندی 5 رنگ",
+        "نوع استفاده آفتابی،رانندگی",
+        "فرم صورت بیضی، قلب، مستطیل، مثلث"
+      ],
+      "price": "217000"
+    }
+  ],
+
+  "watch": [
+    {
+      "id": 43,
+      "name": "ساعت دخترانه دیجیتال",
+      "image1": "/assets/watch/1.jpg",
+      "image2": "/assets/watch/1-hover.jpg",
+      "image3": "/assets/watch/1-black.jpg",
+      "image4": "/assets/watch/1-white.jpg",
+      "items": [
+        "جنس بند PU",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "86000"
+    },
+    {
+      "id": 44,
+      "name": "ساعت دخترانه رومانسون",
+      "image1": "/assets/watch/2.jpg",
+      "image2": "/assets/watch/2-hover.jpg",
+      "items": [
+        "جنس بند چرم",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "350000"
+    },
+    {
+      "id": 45,
+      "name": "ساعت مچی دخترانه آیس",
+      "image1": "/assets/watch/3.jpg",
+      "image2": "/assets/watch/3-hover.jpg",
+      "image3": "/assets/watch/3-black.jpg",
+      "image4": "/assets/watch/3-white.jpg",
+      "items": [
+        "جنس بند:PU",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "760000"
+    },
+    {
+      "id": 46,
+      "name": "ساعت دخترانه دنیل",
+      "image1": "/assets/watch/4.jpg",
+      "image2": "/assets/watch/4-hover.jpg",
+      "items": [
+        "جنس بند چرم",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "520000"
+    },
+    {
+      "id": 47,
+      "name": "ساعت دخترانه رومانسون",
+      "image1": "/assets/watch/5.jpg",
+      "image2": "/assets/watch/5-hover.jpg",
+      "items": [
+        "جنس بند چرم",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "250000"
+    },
+    {
+      "id": 48,
+      "name": "ساعت مچی دیجیتال کاسیو",
+      "image1": "/assets/watch/6.jpg",
+      "image2": "/assets/watch/6-hover.jpg",
+      "items": [
+        "جنس بند استیل",
+        "نوع قفل کلیپسی",
+        "فرم صفحه مربع",
+        "قطر صفحه 3cm"
+      ],
+      "price": "460000"
+    },
+    {
+      "id": 49,
+      "name": "ساعت مچی مردانه جی شاک",
+      "image1": "/assets/watch/7.jpg",
+      "image2": "/assets/watch/7-hover.jpg",
+      "image3": "/assets/watch/7-black.jpg",
+      "image4": "/assets/watch/7-white.jpg",
+      "items": [
+        "جنس بند PU",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "318000"
+    },
+    {
+      "id": 50,
+      "name": "ساعت دیجیتال مردانه",
+      "image1": "/assets/watch/8.jpg",
+      "image2": "/assets/watch/8-hover.jpg",
+      "image3": "/assets/watch/8-black.jpg",
+      "items": [
+        "جنس بند رابر",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "304000"
+    },
+    {
+      "id": 51,
+      "name": "ساعت مچی مردانه جی شاک",
+      "image1": "/assets/watch/9.jpg",
+      "image2": "/assets/watch/9-hover.jpg",
+      "image3": "/assets/watch/9-black.jpg",
+      "image4": "/assets/watch/9-white.jpg",
+      "items": [
+        "جنس بند رابر",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "372000"
+    },
+    {
+      "id": 52,
+      "name": "ساعت دیجیتال مردانه والار",
+      "image1": "/assets/watch/10.jpg",
+      "image2": "/assets/watch/10-hover.jpg",
+      "image3": "/assets/watch/10-black.jpg",
+      "image4": "/assets/watch/10-white.jpg",
+      "items": [
+        "جنس بند رابر",
+        "نوع قفل سگکی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "162000"
+    },
+    {
+      "id": 53,
+      "name": "ساعت مچی مردانه پوزیتیو",
+      "image1": "/assets/watch/11.jpg",
+      "image2": "/assets/watch/11-hover.jpg",
+      "items": [
+        "جنس بند استیل",
+        "نوع قفل کلیپسی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "198000"
+    },
+    {
+      "id": 54,
+      "name": "ساعت دخترانه دیور",
+      "image1": "/assets/watch/12.jpg",
+      "image2": "/assets/watch/12-hover.jpg",
+      "items": [
+        "جنس بند استیل",
+        "نوع قفل کلیپسی",
+        "منبع انرژی باطری",
+        "فرم صفحه گرد"
+      ],
+      "price": "990000"
+    }
+  ],
+
+  "bag": [
+    {
+      "id": 55,
+      "name": "بادی بگ",
+      "image1": "/assets/bag/1.jpg",
+      "image2": "/assets/bag/1-hover.jpg",
+      "image3": "/assets/bag/1-black.jpg",
+      "image4": "/assets/bag/1-white.jpg",
+      "items": [
+        "جنس چرم پتینه،داخل آستر",
+        "طرح طرحدار",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب دارای سه جیب"
+      ],
+      "price": "179000"
+    },
+    {
+      "id": 56,
+      "name": "بادی بگ آدیداس",
+      "image1": "/assets/bag/2.jpg",
+      "image2": "/assets/bag/2-hover.jpg",
+      "image3": "/assets/bag/2-black.jpg",
+      "image4": "/assets/bag/2-white.jpg",
+      "items": [
+        "جنس چرم صنعتی،داخل آستر",
+        "طرح چاپدار",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب دارای سه جیب"
+      ],
+      "price": "260000"
+    },
+    {
+      "id": 57,
+      "name": "بادی بگ",
+      "image1": "/assets/bag/3.jpg",
+      "image2": "/assets/bag/3-hover.jpg",
+      "image3": "/assets/bag/3-black.jpg",
+      "image4": "/assets/bag/3-white.jpg",
+      "items": [
+        "جنس چرم صنعتی،داخل آستر",
+        "طرح شطرنجی",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب دارای سه جیب"
+      ],
+      "price": "187000"
+    },
+    {
+      "id": 58,
+      "name": "کیف مجلسی دخترانه",
+      "image1": "/assets/bag/4.jpg",
+      "image2": "/assets/bag/4-hover.jpg",
+      "image3": "/assets/bag/4-black.jpg",
+      "image4": "/assets/bag/4-white.jpg",
+      "items": [
+        "جنس چرم سوگو،داخل آستر",
+        "طرح طرحدار",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب یک خانه و یک جیب"
+      ],
+      "price": "242000"
+    },
+    {
+      "id": 59,
+      "name": "کیف پاسپورتی",
+      "image1": "/assets/bag/5.jpg",
+      "image2": "/assets/bag/5-hover.jpg",
+      "image3": "/assets/bag/5-black.jpg",
+      "image4": "/assets/bag/5-white.jpg",
+      "items": [
+        "جنس:چرم صنعتی",
+        "طرح طرحدار",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب:یک خانه و یک جا کارتی پشت کیف"
+      ],
+      "price": "340000"
+    },
+    {
+      "id": 60,
+      "name": "کیف دوشی دخترانه",
+      "image1": "/assets/bag/6.jpg",
+      "image2": "/assets/bag/6-hover.jpg",
+      "image3": "/assets/bag/6-black.jpg",
+      "image4": "/assets/bag/6-white.jpg",
+      "items": [
+        "جنس چرم سوگو،داخل آستر",
+        "طرح طرحدار",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب دو خانه و یک جیب"
+      ],
+      "price": "218000"
+    },
+    {
+      "id": 61,
+      "name": "کیف دوشی دخترانه فندی",
+      "image1": "/assets/bag/7.jpg",
+      "image2": "/assets/bag/7-hover.jpg",
+      "image3": "/assets/bag/7-black.jpg",
+      "image4": "/assets/bag/7-white.jpg",
+      "items": [
+        "جنس چرم سوگو،داخل آستر",
+        "طرح ساده",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب یک خانه و یک جیب"
+      ],
+      "price": "190000"
+    },
+    {
+      "id": 62,
+      "name": "کوله پشتی",
+      "image1": "/assets/bag/8.jpg",
+      "image2": "/assets/bag/8-hover.jpg",
+      "image3": "/assets/bag/8-black.jpg",
+      "image4": "/assets/bag/8-white.jpg",
+      "items": [
+        "جنس چرم پتینه.داخل آستر شمعی",
+        "طرح ساده",
+        "نوع استفاده روزمره,ورزشی",
+        "نحوه بسته شدن زیپ"
+      ],
+      "price": "430000"
+    },
+    {
+      "id": 63,
+      "name": "بادی بگ دیور",
+      "image1": "/assets/bag/9.jpg",
+      "image2": "/assets/bag/9-hover.jpg",
+      "image3": "/assets/bag/9-black.jpg",
+      "image4": "/assets/bag/9-white.jpg",
+      "items": [
+        "جنس چرم صنعتی،داخل آستر",
+        "طرح طرحدار",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب دارای سه جیب"
+      ],
+      "price": "179000"
+    },
+    {
+      "id": 64,
+      "name": "بادی بگ امیری",
+      "image1": "/assets/bag/10.jpg",
+      "image2": "/assets/bag/10-hover.jpg",
+      "image3": "/assets/bag/10-black.jpg",
+      "image4": "/assets/bag/10-white.jpg",
+      "items": [
+        "جنس چرم صنعتی،داخل آستر",
+        "طرح چاپدار",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب دارای سه جیب"
+      ],
+      "price": "136000"
+    },
+    {
+      "id": 65,
+      "name": "بادی بگ",
+      "image1": "/assets/bag/11.jpg",
+      "image2": "/assets/bag/11-hover.jpg",
+      "image3": "/assets/bag/11-black.jpg",
+      "image4": "/assets/bag/11-white.jpg",
+      "items": [
+        "جنس چرم صنعتی،داخل آستر",
+        "طرح ساده",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب دارای سه جیب"
+      ],
+      "price": "216000"
+    },
+    {
+      "id": 66,
+      "name": "کیف دوشی دخترانه",
+      "image1": "/assets/bag/12.jpg",
+      "image2": "/assets/bag/12-hover.jpg",
+      "image3": "/assets/bag/12-black.jpg",
+      "image4": "/assets/bag/12-white.jpg",
+      "items": [
+        "جنس چرم سوگو،داخل آستر",
+        "طرح ساده",
+        "نوع استفاده روزمره",
+        "مدل و تعداد جیب سه خانه و یک جیب"
+      ],
+      "price": "385000"
+    }
+  ],
+
+  "shoe": [
+    {
+      "id": 67,
+      "name": "کتانی مردانه آسیکس",
+      "image1": "/assets/shoe/1.jpg",
+      "image2": "/assets/shoe/1-hover.jpg",
+      "image3": "/assets/shoe/1-black.jpg",
+      "image4": "/assets/shoe/1-white.jpg",
+      "items": [
+        "جنس رویه پارچه مش_چرم ورنی",
+        "جنس زیره PU",
+        "دوخت  ندارد",
+        "نوع استفاده روزمره"
+      ],
+      "price": "315000"
+    },
+    {
+      "id": 68,
+      "name": "کتانی مردانه",
+      "image1": "/assets/shoe/2.jpg",
+      "image2": "/assets/shoe/2-hover.jpg",
+      "image3": "/assets/shoe/2-black.jpg",
+      "image4": "/assets/shoe/2-white.jpg",
+      "items": [
+        "جنس رویه مخمل،چرم صنعتی",
+        "جنس زیره PU،لاستیک عطری",
+        "نوع دوخت کف دوخت ( اشتروبل)",
+        "نحوه بسته شدن بند"
+      ],
+      "price": "435000"
+    },
+    {
+      "id": 69,
+      "name": "کتانی مردانه مک کویین",
+      "image1": "/assets/shoe/3.jpg",
+      "image2": "/assets/shoe/3-hover.jpg",
+      "image3": "/assets/shoe/3-black.jpg",
+      "image4": "/assets/shoe/3-white.jpg",
+      "items": [
+        "جنس رویه:چرم صنعتی،سوییت",
+        "جنس زیره PU",
+        "نوع دوخت:دور دوخت",
+        "نحوه بسته شدن بند"
+      ],
+      "price": "284000"
+    },
+    {
+      "id": 76,
+      "name": "گیوه دخترانه",
+      "image1": "/assets/shoe/10.jpg",
+      "image2": "/assets/shoe/10-hover.jpg",
+      "image3": "/assets/shoe/10-black.jpg",
+      "image4": "/assets/shoe/10-white.jpg",
+      "items": [
+        "جنس رویه بافت دستی",
+        "جنس زیره PU",
+        "سایزبندی 37 الی 40",
+        "نوع استفاده روزمره"
+      ],
+      "price": "328000"
+    },
+    {
+      "id": 77,
+      "name": "کفش دخترانه مازراتی",
+      "image1": "/assets/shoe/11.jpg",
+      "image2": "/assets/shoe/11-hover.jpg",
+      "image3": "/assets/shoe/11-black.jpg",
+      "image4": "/assets/shoe/11-white.jpg",
+      "items": [
+        "جنس رویه چرم صنعتی",
+        "جنس زیره EVA",
+        "ارتفاع پاشنه 3 سانت",
+        "مورد استفاده رسمی،اداری،مجلسی"
+      ],
+      "price": "820000"
+    },
+    {
+      "id": 78,
+      "name": "کفش دخترانه پاشنه بلند",
+      "image1": "/assets/shoe/12.jpg",
+      "image2": "/assets/shoe/12-hover.jpg",
+      "image3": "/assets/shoe/12-black.jpg",
+      "image4": "/assets/shoe/12-white.jpg",
+      "items": [
+        "جنس رویه هورس",
+        "قد پاشنه 7 سانت",
+        "جنس زیره PVC",
+        "مورد استفاده روزمره و مجالس و مهمانی ها"
+      ],
+      "price": "490000"
+    },
+    {
+      "id": 70,
+      "name": "کتانی مردانه مک کویین",
+      "image1": "/assets/shoe/4.jpg",
+      "image2": "/assets/shoe/4-hover.jpg",
+      "image3": "/assets/shoe/4-black.jpg",
+      "image4": "/assets/shoe/4-white.jpg",
+      "items": [
+        "جنس رویه:چرم صنعتی،سوییت",
+        "جنس زیره PU",
+        "نوع دوخت:دور دوخت",
+        "نحوه بسته شدن بند"
+      ],
+      "price": "290000"
+    },
+    {
+      "id": 71,
+      "name": "کتانی مردانه مک کویین",
+      "image1": "/assets/shoe/5.jpg",
+      "image2": "/assets/shoe/5-hover.jpg",
+      "image3": "/assets/shoe/5-black.jpg",
+      "image4": "/assets/shoe/5-white.jpg",
+      "items": [
+        "جنس رویه:چرم صنعتی،سوییت",
+        "جنس زیره PU",
+        "نوع دوخت:دور دوخت",
+        "نحوه بسته شدن بند"
+      ],
+      "price": "284000"
+    },
+    {
+      "id": 72,
+      "name": "کتانی مردانه",
+      "image1": "/assets/shoe/6.jpg",
+      "image2": "/assets/shoe/6-hover.jpg",
+      "image3": "/assets/shoe/6-black.jpg",
+      "image4": "/assets/shoe/6-white.jpg",
+      "items": [
+        "جنس رویه چرم صنعتی",
+        "جنس زیره PU",
+        "نوع دوخت کف دوخت(اشتروبل)",
+        "نحوه بسته شدن بند"
+      ],
+      "price": "392000"
+    },
+    {
+      "id": 73,
+      "name": "بوت دخترانه",
+      "image1": "/assets/shoe/7.jpg",
+      "image2": "/assets/shoe/7-hover.jpg",
+      "image3": "/assets/shoe/7-black.jpg",
+      "image4": "/assets/shoe/7-white.jpg",
+      "items": [
+        "جنس رویه چرم سوگو",
+        "جنس زیره PU",
+        "نوع دوخت ندارد",
+        "نوع استفاده روزمره"
+      ],
+      "price": "650000"
+    },
+    {
+      "id": 74,
+      "name": "بوت دخترانه",
+      "image1": "/assets/shoe/8.jpg",
+      "image2": "/assets/shoe/8-hover.jpg",
+      "image3": "/assets/shoe/8-black.jpg",
+      "image4": "/assets/shoe/8-white.jpg",
+      "items": [
+        "جنس رویه چرم صنعتی",
+        "جنس زیره PU",
+        "نوع دوخت ندارد",
+        "نوع استفاده روزمره"
+      ],
+      "price": "722000"
+    },
+    {
+      "id": 75,
+      "name": "بوت دخترانه",
+      "image1": "/assets/shoe/9.jpg",
+      "image2": "/assets/shoe/9-hover.jpg",
+      "image3": "/assets/shoe/9-black.jpg",
+      "image4": "/assets/shoe/9-white.jpg",
+      "items": [
+        "جنس رویه چرم صنعتی",
+        "جنس زیره PU",
+        "نوع دوخت ندارد",
+        "نوع استفاده روزمره"
+      ],
+      "price": "550000"
     }
   ]
 }
