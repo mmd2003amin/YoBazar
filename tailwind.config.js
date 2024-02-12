@@ -10,6 +10,8 @@ export default {
     },
     extend: {
       screens: { xs: "450px" },
+      boxShadow : { "cards": "0px 2px 8px rgba(99, 99, 99, 0.4)"},
+      transitionDuration : {"400" : "400ms"}
     },
   },
   plugins: [],

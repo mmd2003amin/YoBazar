@@ -9,7 +9,7 @@ import { IoClose } from "react-icons/io5";
 
 const MobileGroupButton = ( { showMenu , setShowMenu } ) => {
   return (
-    <div className="centering justify-between bg-white z-30 fixed right-0 left-0 bottom-0 py-4 px-8 xs:px-16 md:hidden">
+    <div className="centering justify-between bg-header z-30 fixed right-0 left-0 bottom-2 w-[95%] rounded-2xl shadow-cards mx-auto py-6 px-8 xs:px-16 md:hidden">
       <IoMdMenu onClick={() => setShowMenu(true)} className={`${showMenu && "hidden"} size-6`}/>
       <IoClose onClick={() => setShowMenu(false)} className={`${!showMenu && "hidden"} size-6`}/>  
 

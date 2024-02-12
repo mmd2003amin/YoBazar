@@ -60,7 +60,7 @@
   }
 
   .buttons-slider-header {
-    @apply text-white hover:scale-125 cursor-pointer duration-300 absolute top-[50%] z-50 hidden sm:block text-xl md:text-4xl;
+    @apply hidden md:block text-white hover:scale-125 cursor-pointer duration-300 absolute top-[50%] z-50 text-xl md:text-4xl;
   }
 
   .banner-container {
@@ -68,11 +68,11 @@
   }
 
   .add-to-cart {
-    @apply absolute bottom-0 w-full bg-cyan-800 hover:bg-red-600 h-10 centering rounded-b-md text-white transition-all;
+    @apply absolute bottom-0 w-full bg-cyan-800 hover:bg-red-600 h-10 centering rounded-b-md text-white duration-400;
   }
 
   .details-cards {
-    @apply centering items-end flex-col absolute top-3 left-3 duration-300;
+    @apply centering items-end flex-col absolute top-3 left-3 duration-400;
   }
 
   .title-details-cards {

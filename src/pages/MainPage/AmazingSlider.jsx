@@ -29,6 +29,7 @@ const AmazingSlider = () => {
       />
       <Swiper
         spaceBetween={16}
+        loop={true}
         slidesPerView={
           innerWidth > 550 && innerWidth < 900
             ? 2

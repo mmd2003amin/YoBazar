@@ -3,31 +3,35 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 
-import sliderHeaderData from "../../constant/SliderHeaderData";
+import sliderFooterData from "../../constant/sliderFooterData";
 import { FaCircleArrowRight, FaCircleArrowLeft } from "react-icons/fa6";
 
-const SliderHeader = () => {
+const SliderFooter = () => {
   return (
     <div>
       <Swiper
-        className="relative group"
-        modules={[Navigation, Autoplay]}
+        className="relative group mt-10 w-11/12 md:w-[98%]"
+        spaceBetween={10}
         loop={true}
+        slidesPerView={
+          innerWidth > 650 && innerWidth < 950 ? 2 : innerWidth > 951 ? 3 : 1
+        }
+        modules={[Navigation, Autoplay]}
         navigation={{
           nextEl: ".button-next-slide",
           prevEl: ".button-prev-slide",
         }}
         autoplay={{
-          delay: 4000,
+          delay: 2000,
           disableOnInteraction: false,
         }}
       >
-        {sliderHeaderData.map((item) => (
+        {sliderFooterData.map((item) => (
           <SwiperSlide key={item.id}>
             <img
               src={item.image}
               alt="slider"
-              className="w-full h-44 md:h-80 lg:h-[30rem] relative cursor-pointer"
+              className="w-full h-60 rounded-md relative cursor-pointer"
             />
           </SwiperSlide>
         ))}
@@ -39,4 +43,4 @@ const SliderHeader = () => {
   );
 };
 
-export default SliderHeader;
+export default SliderFooter;

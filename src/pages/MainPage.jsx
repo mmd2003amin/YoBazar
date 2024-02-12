@@ -5,6 +5,7 @@ import BannersTop from "./MainPage/BanersTop";
 import AmazingSlider from "./MainPage/AmazingSlider";
 import BannersBottom from "./MainPage/BannersBottom";
 import Cards from "./MainPage/Cards";
+import SliderFooter from "./MainPage/SliderFooter";
 
 const MainPage = () => {
   return (
@@ -15,6 +16,7 @@ const MainPage = () => {
       <AmazingSlider />
       <BannersBottom />
       <Cards />
+      <SliderFooter />
     </div>
   );
 };
