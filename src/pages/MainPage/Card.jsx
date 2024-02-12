@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import detailsCardsData from "../../constant/detailsCardsData";
 
-const SlideAmazing = ({ data }) => {
+const Card = ({ data , name }) => {
   const [hover, setHover] = useState(null);
 
   return (
-    <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(null)}>
-      <p className="h-fit z-20 w-24 absolute -top-4 -right-2 p-1 rounded-sm text-sm text-center -rotate-90 text-white bg-red-600">
+    <div 
+     onMouseEnter={() => setHover(true)} 
+     onMouseLeave={() => setHover(null)} 
+     className={`cursor-pointer ${name !== "slider" ? "shadow-xl rounded-md" : "pb-5"}`}
+    >
+      <p className={`${name === "cards" && "hidden"} h-fit z-20 w-24 absolute -top-4 -right-2 p-1 rounded-sm text-sm text-center -rotate-90 text-white bg-red-600`}>
         {data.discount}
       </p>
 
@@ -35,13 +39,13 @@ const SlideAmazing = ({ data }) => {
         </div>
       </div>
 
-      <div className="text-white font-vazirRegular text-sm centering flex-col bg-cyan-800 rounded-md w-full p-2 mb-5">
+      <div className="text-white font-vazirRegular text-sm centering flex-col bg-cyan-800 rounded-md w-full p-2">
         <h1 className="text-lg font-vazirMediu mb-2">{data.name}</h1>
-        <p className="line-through opacity-70">{data.price}</p>
+        <p className={`${name === "slider" && "line-through opacity-70"}`}>{data.price}</p>
         <p>{data.priceDiscount}</p>
       </div>
     </div>
   );
 };
 
-export default SlideAmazing;
+export default Card;

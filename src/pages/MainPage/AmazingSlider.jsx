@@ -5,7 +5,7 @@ import "swiper/css";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchData } from "../../features/data/dataSlice";
 import { FaCircleArrowLeft, FaCircleArrowRight } from "react-icons/fa6";
-import SlideAmazing from "./SlideAmazing";
+import Card from "./Card";
 
 const AmazingSlider = () => {
   const dispatch = useDispatch();
@@ -52,7 +52,7 @@ const AmazingSlider = () => {
         {data &&
           data.map((item) => (
             <SwiperSlide key={item.id} className="mt-14 cursor-pointer">
-              <SlideAmazing data={item} />
+              <Card data={item} name="slider" />
             </SwiperSlide>
           ))}
 
