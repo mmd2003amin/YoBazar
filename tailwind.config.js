@@ -10,8 +10,20 @@ export default {
     },
     extend: {
       screens: { xs: "450px" },
-      boxShadow : { "cards": "0px 2px 8px rgba(99, 99, 99, 0.4)"},
-      transitionDuration : {"400" : "400ms"}
+      boxShadow: { cards: "0px 2px 8px rgba(99, 99, 99, 0.4)" },
+      transitionDuration: { 400: "400ms" },
+      animation: {
+        "move-bg": "move .75s linear infinite",
+      },
+      keyframes: {
+        move: {
+          "0%": { backgroundPosition: "50% 0" },
+          "25%": { backgroundPosition: "100% 0" },
+          "50%": { backgroundPosition: "50% 0" },
+          "75%": { backgroundPosition: "0% 0" },
+          "100%": { backgroundPosition: "50% 0" },
+        },
+      },
     },
   },
   plugins: [],

@@ -3,14 +3,14 @@ import detailsCardsData from "../../constant/detailsCardsData";
 
 const Card = ({ data , name }) => {
   const [hover, setHover] = useState(null);
-
+  
   return (
     <div 
      onMouseEnter={() => setHover(true)} 
      onMouseLeave={() => setHover(null)} 
      className={`cursor-pointer ${name !== "slider" ? "shadow-xl rounded-md" : "pb-5"}`}
     >
-      <p className={`${name === "cards" && "hidden"} h-fit z-20 w-24 absolute -top-4 -right-2 p-1 rounded-sm text-sm text-center -rotate-90 text-white bg-red-600`}>
+      <p className={`${name !== "slider" && "hidden"} h-fit z-20 w-24 absolute -top-4 -right-2 p-1 rounded-sm text-sm text-center -rotate-90 text-white bg-red-600`}>
         {data.discount}
       </p>
 

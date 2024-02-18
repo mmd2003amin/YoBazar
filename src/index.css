@@ -100,4 +100,36 @@
       rgba(255, 255, 255, 1) 100%
     );
   }
+
+  .range-slide .range-slider__thumb {
+    border: 6px solid #fff;
+    box-sizing: border-box;
+  }
+
+  .range-slide .range-slider__thumb[data-upper] {
+    background: #dc2626;
+  }
+
+  .range-slide .range-slider__thumb[data-lower] {
+    background: #0073e6;
+  }
+
+  .range-slide .range-slider__range {
+    background: linear-gradient(to right, #0073e6, #dc2626);
+    background-size: 200% 100%;
+    background-position: 50% 0;
+  }
+
+  .range-slide .range-slider__range[data-active],
+  .range-slide .range-slider__thumb[data-active] ~ .range-slider__range {
+    @apply animate-move-bg;
+  }
+
+  .filter-sections {
+    @apply border border-solid border-gray-300 p-3 rounded-md mb-1;
+  }
+
+  .price-filter div {
+    @apply shadow-lg p-2 min-w-20 text-center duration-700 rounded-md text-white;
+  }
 }

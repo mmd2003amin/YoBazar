@@ -23,18 +23,16 @@ const dataSlice = createSlice({
     builder.addCase(fetchData.pending, (state) => {
       state.isLoading = true;
     }),
-
-    builder.addCase(fetchData.fulfilled, (state, action) => {
-      state.isLoading = false,
-      state.products = action.payload,
-      state.error = ""
-    }),
-
-    builder.addCase(fetchData.rejected, (state, action) => {
-      state.isLoading = false,
-      state.products = [],
-      state.error = action.error.message;
-    });
+      builder.addCase(fetchData.fulfilled, (state, action) => {
+        (state.isLoading = false),
+          (state.products = action.payload),
+          (state.error = "");
+      }),
+      builder.addCase(fetchData.rejected, (state, action) => {
+        (state.isLoading = false),
+          (state.products = []),
+          (state.error = action.error.message);
+      });
   },
 });
 
