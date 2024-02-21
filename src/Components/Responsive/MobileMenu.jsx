@@ -3,8 +3,9 @@ import ItemsMenu from "../../constant/ItemsMenu";
 
 import { IoMdMenu } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import { Link } from "react-router-dom";
 
-const MobileMenu = ({ showMenu }) => {
+const MobileMenu = ({ showMenu, setShowMenu }) => {
   return (
     <div
       className={`${
@@ -20,9 +21,11 @@ const MobileMenu = ({ showMenu }) => {
 
       <ul className="list-menu-mobile centering flex-col">
         {ItemsMenu.map((item) => (
-          <li key={item.id}>
-            <span>{item.name}</span>
-            <IoIosArrowForward />
+          <li onClick={() => setShowMenu(false)} key={item.id}>
+            <Link to={item.path} className="centering justify-between w-full">
+              <span>{item.name}</span>
+              <IoIosArrowForward />
+            </Link>
           </li>
         ))}
         <li>وبلاگ</li>

@@ -8,6 +8,7 @@ const PagesSubMenu = [
   {
     id: 1,
     name: "خانه",
+    path: "glasses",
     items: [
       "صفحه اصلی 1",
       "صفحه اصلی 2",
@@ -19,6 +20,7 @@ const PagesSubMenu = [
   {
     id: 2,
     name: "وبلاگ",
+    path: "shoe",
     items: [
       "وبلاگ | پیش‌فرض",
       "وبلاگ شبکه‌ای",
@@ -30,6 +32,7 @@ const PagesSubMenu = [
   {
     id: 3,
     name: "فروشگاه",
+    path: "bag",
     items: [
       "دسته تبلیغاتی",
       "فروشگاه | شبکه‌ای",
@@ -41,11 +44,13 @@ const PagesSubMenu = [
   {
     id: 4,
     name: "محصولات",
+    path: "man",
     items: ["محصول 1", "محصول 2", "محصول 3", "محصول 4", "گروه محصولات"],
   },
   {
     id: 5,
     name: "سایر",
+    path: "woman",
     items: [
       "صفحه 404",
       "درباره",
@@ -60,32 +65,41 @@ const StoreSubMenu = [
   {
     id: 1,
     name: "مردانه",
+    path: "man",
     items: ["پیراهن", "پیراهن پولو", "تی‌شرت", "راحتی", "شلوار مردانه"],
   },
   {
     id: 2,
     name: "مردانه",
+    path: "man",
     items: ["شورت", "کت و ژاکت", "کت و شلوار", "لباس راحتی", "لباس ورزشی"],
   },
-  { id: 3, name: "زنانه", items: ["تاپ", "جین", "دامن", "شلوار", "شورت"] },
+  {
+    id: 3,
+    path: "woman",
+    name: "زنانه",
+    items: ["تاپ", "جین", "دامن", "شلوار", "شورت"],
+  },
   {
     id: 4,
     name: "زنانه",
+    path: "woman",
     items: ["مایو زنانه", "لباس زیر زنانه", "کت و شلوار", "لباس راحتی", "لباس"],
   },
   {
     id: 5,
     name: "سایر",
+    path: "watch",
     items: ["ساعت مچی", "جواهرات", "سایر تجهیزات", "جین", "دامن"],
   },
 ];
 
 const CategoriesSubMenu = [
-  { id: 1, name: "زنانه", image: man },
-  { id: 2, name: "مردانه", image: woman },
-  { id: 3, name: "کفش", image: bag },
-  { id: 4, name: "کیف", image: shoe },
-  { id: 5, name: "عینک", image: Glasses },
+  { id: 1, path: "woman", name: "زنانه", image: man },
+  { id: 2, path: "man", name: "مردانه", image: woman },
+  { id: 3, path: "shoe", name: "کفش", image: bag },
+  { id: 4, path: "bag", name: "کیف", image: shoe },
+  { id: 5, path: "glasses", name: "عینک", image: Glasses },
 ];
 
 const ManSubMenu = [

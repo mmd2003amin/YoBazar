@@ -5,6 +5,7 @@ import "swiper/css";
 
 import sliderFooterData from "../../constant/sliderFooterData";
 import { FaCircleArrowRight, FaCircleArrowLeft } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const SliderFooter = () => {
   return (
@@ -28,11 +29,13 @@ const SliderFooter = () => {
       >
         {sliderFooterData.map((item) => (
           <SwiperSlide key={item.id}>
-            <img
-              src={item.image}
-              alt="slider"
-              className="w-full h-60 rounded-md relative cursor-pointer"
-            />
+            <Link to={item.path}>
+              <img
+                src={item.image}
+                alt="slider"
+                className="w-full h-60 rounded-md relative cursor-pointer"
+              />
+            </Link>
           </SwiperSlide>
         ))}
 

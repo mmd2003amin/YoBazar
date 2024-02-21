@@ -1,9 +1,10 @@
 import React from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Banner = ({ data, name }) => {
   return (
-    <div
+    <Link to={data.path}
       className={`group overflow-hidden rounded-md mb-2 md:mx-2 w-full relative cursor-pointer ${
         name === "topOne" ? "md:w-1/3" : "md:w-1/2"
       }`}
@@ -36,7 +37,7 @@ const Banner = ({ data, name }) => {
           <IoIosArrowRoundBack className="mr-1 size-8" />
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

@@ -12,6 +12,7 @@ import {
   FaPinterestP,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -38,7 +39,7 @@ const Footer = () => {
       <div className="border-t border-gray-200 border-solid p-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {footerData.map((list) => (
-            <div key={list.id} className="mb-8">
+            <Link to={list.path} key={list.id} className="mb-8">
               <h1 className="text-2xl md:text-lg mb-3 text-center">
                 {list.name}
               </h1>
@@ -52,7 +53,7 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

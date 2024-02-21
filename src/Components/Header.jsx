@@ -106,7 +106,7 @@ const Header = () => {
       </div>
 
       <MobileGroupButton showMenu={showMenu} setShowMenu={setShowMenu} />
-      <MobileMenu showMenu={showMenu} />
+      <MobileMenu showMenu={showMenu} setShowMenu={setShowMenu} />
       <SubMenu showSubMenu={showSubMenu} setShowSubMenu={setShowSubMenu} data={data} />
       <div 
        onClick={() => setShowSearch(false)}
