@@ -35,6 +35,11 @@
     border-bottom: 1px solid rgb(229, 231, 235);
   }
 
+  .bg-header-dark {
+    @apply bg-header;
+    background: rgba(4, 4, 4, 0.72);
+  }
+
   .quantity {
     @apply text-white bg-black size-5 text-sm text-center rounded-full absolute bottom-3 right-6 z-10;
   }
@@ -131,5 +136,9 @@
 
   .price-filter div {
     @apply shadow-lg p-2 min-w-20 text-center duration-700 rounded-md text-white;
+  }
+
+  .buttons-details div {
+    @apply transition-all centering rounded-3xl p-3 px-6 text-white mb-2 sm:ml-1 cursor-pointer sm:w-2/5 md:w-5/6;
   }
 }

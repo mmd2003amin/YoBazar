@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "./MainPage/Card";
-import Loader from "./Loader";
-import Filters from "./Filters";
-import MobileFilters from "./MobileFilters";
+import Loader from "../Components/Loader";
+import Filters from "../Components/Filters";
+import MobileFilters from "../Components/Responsive/MobileFilters";
 import { useSelector } from "react-redux";
 
 const Products = ({ data }) => {
+  window.scrollTo(0, 0);
   const filter = useSelector((state) => state.filter);
-
   const filterHave = filter.haveProduct
     ? data.filter((item) => item.price !== "ناموجود")
     : data;
@@ -36,9 +36,11 @@ const Products = ({ data }) => {
 
   const products = filter.filterPrice
     ? sortBy.filter(
-      (item) =>
-        item.price < filter.filterPrice[1] && item.price > filter.filterPrice[0]
-    ) : sortBy;
+        (item) =>
+          item.price < filter.filterPrice[1] &&
+          item.price > filter.filterPrice[0]
+      )
+    : sortBy;
 
   return (
     <>
@@ -53,7 +55,7 @@ const Products = ({ data }) => {
 
           <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-4 w-full md:w-[70%] lg:w-4/5">
             {products.map((item) => (
-              <Card key={item.id} data={item} />
+              <Card key={item.id} data={item} name={item.page} />
             ))}
           </div>
         </div>

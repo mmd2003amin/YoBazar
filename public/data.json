@@ -18,14 +18,15 @@
       ],
       "price": 480000,
       "priceDiscount": 180000,
-      "discount": "20%"
+      "discount": "20%",
+      "page": "woman"
     },
     {
       "id": 2,
       "image1": "/assets/amazingSlider/5.jpg",
       "image2": "/assets/amazingSlider/5-hover.jpg",
       "image3": "/assets/amazingSlider/5-white.jpg",
-      "image4": "/assets/amazingSlider/5-back.jpg",
+      "image4": "/assets/amazingSlider/5-black.jpg",
       "name": "تیشرت و شلوارک مردانه",
       "items": [
         "نوع شستشو دستی و ماشین",
@@ -35,7 +36,8 @@
       ],
       "price": 850000,
       "priceDiscount": 560000,
-      "discount": "33%"
+      "discount": "33%",
+      "page": "man"
     },
     {
       "id": 3,
@@ -53,7 +55,8 @@
       ],
       "price": 620000,
       "priceDiscount": 490000,
-      "discount": "20%"
+      "discount": "20%",
+      "page": "woman"
     },
     {
       "id": 4,
@@ -72,7 +75,8 @@
       ],
       "price": 490000,
       "priceDiscount": 570000,
-      "discount": "55%"
+      "discount": "55%",
+      "page": "man"
     },
     {
       "id": 5,
@@ -89,7 +93,8 @@
       ],
       "price": 400000,
       "priceDiscount": 360000,
-      "discount": "14%"
+      "discount": "14%",
+      "page": "woman"
     },
     {
       "id": 6,
@@ -106,13 +111,14 @@
       ],
       "price": 730000,
       "priceDiscount": 690000,
-      "discount": "5%"
+      "discount": "5%",
+      "page": "man"
     }
   ],
 
   "cardsMan": [
     {
-      "id": 6,
+      "id": 7,
       "name": "شلوار جین مردانه مام",
       "image1": "/assets/man/pants/1.jpg",
       "image2": "/assets/man/pants/1-hover.jpg",
@@ -128,7 +134,9 @@
       ],
       "price": 490000,
       "view": 620,
-      "star": 4.5
+      "star": 4.5,
+      "page": "man",
+      "page": "man"
     },
     {
       "id": 8,
@@ -146,7 +154,9 @@
       ],
       "price": "ناموجود",
       "view": 675,
-      "star": 6.5
+      "star": 6.5,
+      "page": "man",
+      "page": "man"
     },
     {
       "id": 9,
@@ -164,7 +174,8 @@
       ],
       "price": 430000,
       "view": 532,
-      "star": 3.7
+      "star": 3.7,
+      "page": "man"
     },
     {
       "id": 10,
@@ -182,7 +193,8 @@
       ],
       "price": 1230000,
       "view": 740,
-      "star": 6.7
+      "star": 6.7,
+      "page": "man"
     },
     {
       "id": 11,
@@ -199,7 +211,8 @@
       ],
       "price": "ناموجود",
       "view": 521,
-      "star": 3.5
+      "star": 3.5,
+      "page": "man"
     },
     {
       "id": 12,
@@ -216,7 +229,8 @@
       ],
       "price": 670000,
       "view": 395,
-      "star": 8.8
+      "star": 8.8,
+      "page": "man"
     },
     {
       "id": 13,
@@ -233,7 +247,8 @@
       ],
       "price": "ناموجود",
       "view": 311,
-      "star": 1.9
+      "star": 1.9,
+      "page": "man"
     },
     {
       "id": 14,
@@ -251,7 +266,8 @@
       ],
       "price": 515000,
       "view": 421,
-      "star": 9.7
+      "star": 9.7,
+      "page": "man"
     },
 
     {
@@ -270,7 +286,8 @@
       ],
       "price": "ناموجود",
       "view": 973,
-      "star": 9.2
+      "star": 9.2,
+      "page": "man"
     },
     {
       "id": 16,
@@ -287,7 +304,8 @@
       ],
       "price": 128000,
       "view": 394,
-      "star": 5.2
+      "star": 5.2,
+      "page": "man"
     },
     {
       "id": 17,
@@ -305,7 +323,8 @@
       ],
       "price": "ناموجود",
       "view": 274,
-      "star": 7.7
+      "star": 7.7,
+      "page": "man"
     },
     {
       "id": 18,
@@ -323,7 +342,8 @@
       ],
       "price": 460000,
       "view": 456,
-      "star": 6.3
+      "star": 6.3,
+      "page": "man"
     }
   ],
 
@@ -343,7 +363,8 @@
       ],
       "price": 860000,
       "view": 142,
-      "star": 2.4
+      "star": 2.4,
+      "page": "woman"
     },
     {
       "id": 20,
@@ -361,7 +382,8 @@
       ],
       "price": "ناموجود",
       "view": 432,
-      "star": 2.5
+      "star": 2.5,
+      "page": "woman"
     },
     {
       "id": 21,
@@ -379,7 +401,8 @@
       ],
       "price": 475000,
       "view": 328,
-      "star": 7.7
+      "star": 7.7,
+      "page": "woman"
     },
     {
       "id": 22,
@@ -397,7 +420,8 @@
       ],
       "price": "ناموجود",
       "view": 986,
-      "star": 2.6
+      "star": 2.6,
+      "page": "woman"
     },
 
     {
@@ -415,7 +439,8 @@
       ],
       "price": 808000,
       "view": 482,
-      "star": 8.4
+      "star": 8.4,
+      "page": "woman"
     },
     {
       "id": 24,
@@ -432,7 +457,8 @@
       ],
       "price": 529000,
       "view": 836,
-      "star": 4.2
+      "star": 4.2,
+      "page": "woman"
     },
     {
       "id": 25,
@@ -449,7 +475,8 @@
       ],
       "price": "ناموجود",
       "view": 432,
-      "star": 9.7
+      "star": 9.7,
+      "page": "woman"
     },
     {
       "id": 26,
@@ -466,7 +493,8 @@
       ],
       "price": 249000,
       "view": 324,
-      "star": 1.3
+      "star": 1.3,
+      "page": "woman"
     },
 
     {
@@ -483,7 +511,8 @@
       ],
       "price": 1325000,
       "view": 4,
-      "star": 0.7
+      "star": 0.7,
+      "page": "woman"
     },
     {
       "id": 28,
@@ -499,8 +528,9 @@
         "ّبدون کلاه"
       ],
       "price": "ناموجود",
-      "view" : 135,
-      "star" : 1.7
+      "view": 135,
+      "star": 1.7,
+      "page": "woman"
     },
     {
       "id": 29,
@@ -516,8 +546,9 @@
         "نحوه بسته شدن دکمه,کمربند"
       ],
       "price": "ناموجود",
-      "view" : 960,
-      "star" : 4.8
+      "view": 960,
+      "star": 4.8,
+      "page": "woman"
     },
     {
       "id": 30,
@@ -533,8 +564,9 @@
         "نحوه بسته شدن دکمه"
       ],
       "price": 130000,
-      "view" : 442,
-      "star" : 8.3
+      "view": 442,
+      "star": 8.3,
+      "page": "woman"
     }
   ],
 
@@ -553,8 +585,9 @@
         "فرم صورت بیضی، قلب، مستطیل، مثلث"
       ],
       "price": "ناموجود",
-      "view" : 421,
-      "star" : 3.8
+      "view": 421,
+      "star": 3.8,
+      "page": "glasses"
     },
     {
       "id": 32,
@@ -570,8 +603,9 @@
         "فرم صورت بیضی، قلب، مستطیل، مثلث"
       ],
       "price": 205000,
-      "view" : 311,
-      "star" : 7.6
+      "view": 311,
+      "star": 7.6,
+      "page": "glasses"
     },
     {
       "id": 33,
@@ -587,8 +621,9 @@
         "فرم صورت بیضی، قلب، مستطیل، مثلث"
       ],
       "price": "ناموجود",
-      "view" : 310,
-      "star" : 8.6
+      "view": 310,
+      "star": 8.6,
+      "page": "glasses"
     },
     {
       "id": 34,
@@ -605,7 +640,8 @@
       ],
       "price": 189000,
       "view": 400,
-      "star": 6.5
+      "star": 6.5,
+      "page": "glasses"
     },
     {
       "id": 35,
@@ -622,7 +658,8 @@
       ],
       "price": 99000,
       "view": 132,
-      "star": 2
+      "star": 2,
+      "page": "glasses"
     },
     {
       "id": 36,
@@ -637,7 +674,8 @@
       ],
       "price": 184000,
       "view": 36,
-      "star": 8.2
+      "star": 8.2,
+      "page": "glasses"
     },
     {
       "id": 37,
@@ -653,8 +691,9 @@
         "فرم صورت بیضی، قلب، مستطیل، مثلث"
       ],
       "price": "ناموجود",
-      "view" : 440,
-      "star" : 2.6
+      "view": 440,
+      "star": 2.4,
+      "page": "glasses"
     },
     {
       "id": 38,
@@ -670,8 +709,9 @@
         "فرم صورت بیضی، قلب، مستطیل، مثلث"
       ],
       "price": "ناموجود",
-      "view" : 731,
-      "star" : 3.7
+      "view": 731,
+      "star": 3.2,
+      "page": "glasses"
     },
     {
       "id": 39,
@@ -687,7 +727,8 @@
       ],
       "price": 980000,
       "view": 805,
-      "star": 1.1
+      "star": 1.1,
+      "page": "glasses"
     },
     {
       "id": 40,
@@ -703,8 +744,9 @@
         "فرم صورت بیضی، قلب، مستطیل، مثلث"
       ],
       "price": "ناموجود",
-      "view" : 135,
-      "star" : 4.7
+      "view": 135,
+      "star": 4.7,
+      "page": "glasses"
     },
     {
       "id": 41,
@@ -721,7 +763,8 @@
       ],
       "price": 202000,
       "view": 560,
-      "star": 3.5
+      "star": 3.5,
+      "page": "glasses"
     },
     {
       "id": 42,
@@ -738,7 +781,8 @@
       ],
       "price": 217000,
       "view": 320,
-      "star": 6.7
+      "star": 6.7,
+      "page": "glasses"
     }
   ],
 
@@ -758,7 +802,8 @@
       ],
       "price": 86000,
       "view": 90,
-      "star": 7.5
+      "star": 7.5,
+      "page": "watch"
     },
     {
       "id": 44,
@@ -773,7 +818,8 @@
       ],
       "price": 350000,
       "view": 751,
-      "star": 5.2
+      "star": 5.2,
+      "page": "watch"
     },
     {
       "id": 45,
@@ -789,8 +835,9 @@
         "فرم صفحه گرد"
       ],
       "price": "ناموجود",
-      "view" : 899,
-      "star" : 1.4
+      "view": 899,
+      "star": 1,
+      "page": "watch"
     },
     {
       "id": 46,
@@ -805,7 +852,8 @@
       ],
       "price": 520000,
       "view": 820,
-      "star": 9.4
+      "star": 9.4,
+      "page": "watch"
     },
     {
       "id": 47,
@@ -820,7 +868,8 @@
       ],
       "price": 110000,
       "view": 250,
-      "star": 5
+      "star": 5,
+      "page": "watch"
     },
     {
       "id": 48,
@@ -835,7 +884,8 @@
       ],
       "price": 460000,
       "view": 693,
-      "star": 7.1
+      "star": 7.1,
+      "page": "watch"
     },
     {
       "id": 49,
@@ -851,8 +901,9 @@
         "فرم صفحه گرد"
       ],
       "price": "ناموجود",
-      "view" : 865,
-      "star" : 4.0
+      "view": 865,
+      "star": 4,
+      "page": "watch"
     },
     {
       "id": 50,
@@ -868,7 +919,8 @@
       ],
       "price": 304000,
       "view": 120,
-      "star": 3.8
+      "star": 3.8,
+      "page": "watch"
     },
     {
       "id": 51,
@@ -885,7 +937,8 @@
       ],
       "price": 372000,
       "view": 933,
-      "star": 7.2
+      "star": 7.2,
+      "page": "watch"
     },
     {
       "id": 52,
@@ -902,7 +955,8 @@
       ],
       "price": 162000,
       "view": 826,
-      "star": 2.7
+      "star": 2.7,
+      "page": "watch"
     },
     {
       "id": 53,
@@ -917,7 +971,8 @@
       ],
       "price": 198000,
       "view": 483,
-      "star": 9.2
+      "star": 9.2,
+      "page": "watch"
     },
     {
       "id": 54,
@@ -932,7 +987,8 @@
       ],
       "price": 990000,
       "view": 274,
-      "star": 3.9
+      "star": 3.9,
+      "page": "watch"
     }
   ],
 
@@ -952,7 +1008,8 @@
       ],
       "price": 179000,
       "view": 543,
-      "star": 6.2
+      "star": 6.2,
+      "page": "bag"
     },
     {
       "id": 56,
@@ -969,7 +1026,8 @@
       ],
       "price": 260000,
       "view": 167,
-      "star": 7.3
+      "star": 7.3,
+      "page": "bag"
     },
     {
       "id": 57,
@@ -986,7 +1044,8 @@
       ],
       "price": 187000,
       "view": 935,
-      "star": 4.1
+      "star": 4.1,
+      "page": "bag"
     },
     {
       "id": 58,
@@ -1003,7 +1062,8 @@
       ],
       "price": 242000,
       "view": 826,
-      "star": 2.7
+      "star": 2.7,
+      "page": "bag"
     },
     {
       "id": 59,
@@ -1020,7 +1080,8 @@
       ],
       "price": 340000,
       "view": 432,
-      "star": 8.5
+      "star": 8.5,
+      "page": "bag"
     },
     {
       "id": 60,
@@ -1036,8 +1097,9 @@
         "مدل و تعداد جیب دو خانه و یک جیب"
       ],
       "price": "ناموجود",
-      "view" : 125,
-      "star" : 8.9
+      "view": 125,
+      "star": 8.9,
+      "page": "bag"
     },
     {
       "id": 61,
@@ -1053,8 +1115,9 @@
         "مدل و تعداد جیب یک خانه و یک جیب"
       ],
       "price": "ناموجود",
-      "view" : 863,
-      "star" : 1.8
+      "view": 863,
+      "star": 1.8,
+      "page": "bag"
     },
     {
       "id": 62,
@@ -1071,7 +1134,8 @@
       ],
       "price": 1140000,
       "view": 602,
-      "star": 9.1
+      "star": 9.1,
+      "page": "bag"
     },
     {
       "id": 63,
@@ -1088,7 +1152,8 @@
       ],
       "price": 179000,
       "view": 384,
-      "star": 5.7
+      "star": 5.7,
+      "page": "bag"
     },
     {
       "id": 64,
@@ -1104,8 +1169,9 @@
         "مدل و تعداد جیب دارای سه جیب"
       ],
       "price": "ناموجود",
-      "view" : 642,
-      "star" : 2.5
+      "view": 642,
+      "star": 2.5,
+      "page": "bag"
     },
     {
       "id": 65,
@@ -1122,7 +1188,8 @@
       ],
       "price": 216000,
       "view": 937,
-      "star": 8.8
+      "star": 8.8,
+      "page": "bag"
     },
     {
       "id": 66,
@@ -1139,7 +1206,8 @@
       ],
       "price": 385000,
       "view": 986,
-      "star": 5.2
+      "star": 5.2,
+      "page": "bag"
     }
   ],
 
@@ -1158,8 +1226,9 @@
         "نوع استفاده روزمره"
       ],
       "price": "ناموجود",
-      "view" : 400,
-      "star" : 6.5
+      "view": 400,
+      "star": 6.9,
+      "page": "shoe"
     },
     {
       "id": 68,
@@ -1176,7 +1245,8 @@
       ],
       "price": 1235000,
       "view": 854,
-      "star": 8.1
+      "star": 8.19,
+      "page": "shoe"
     },
     {
       "id": 69,
@@ -1193,7 +1263,8 @@
       ],
       "price": 284000,
       "view": 643,
-      "star": 6.1
+      "star": 6.19,
+      "page": "shoe"
     },
     {
       "id": 76,
@@ -1209,8 +1280,9 @@
         "نوع استفاده روزمره"
       ],
       "price": "ناموجود",
-      "view" : 843,
-      "star" : 2.6
+      "view": 843,
+      "star": 2.9,
+      "page": "shoe"
     },
     {
       "id": 77,
@@ -1227,7 +1299,8 @@
       ],
       "price": 820000,
       "view": 842,
-      "star": 2.3
+      "star": 2.39,
+      "page": "shoe"
     },
     {
       "id": 78,
@@ -1243,8 +1316,9 @@
         "مورد استفاده روزمره و مجالس و مهمانی ها"
       ],
       "price": "ناموجود",
-      "view" : 643,
-      "star" : 2.5
+      "view": 643,
+      "star": 2.9,
+      "page": "shoe"
     },
     {
       "id": 70,
@@ -1261,7 +1335,8 @@
       ],
       "price": 290000,
       "view": 400,
-      "star": 5.2
+      "star": 5.29,
+      "page": "shoe"
     },
     {
       "id": 71,
@@ -1278,7 +1353,8 @@
       ],
       "price": 284000,
       "view": 135,
-      "star": 5.7
+      "star": 5.79,
+      "page": "shoe"
     },
     {
       "id": 72,
@@ -1295,7 +1371,8 @@
       ],
       "price": 392000,
       "view": 535,
-      "star": 1.7
+      "star": 1.79,
+      "page": "shoe"
     },
     {
       "id": 73,
@@ -1311,8 +1388,9 @@
         "نوع استفاده روزمره"
       ],
       "price": "ناموجود",
-      "view" : 422,
-      "star" : 9.9
+      "view": 422,
+      "star": 9.9,
+      "page": "shoe"
     },
     {
       "id": 74,
@@ -1329,7 +1407,8 @@
       ],
       "price": 722000,
       "view": 321,
-      "star": 7.9
+      "star": 7.99,
+      "page": "shoe"
     },
     {
       "id": 75,
@@ -1346,7 +1425,8 @@
       ],
       "price": 550000,
       "view": 240,
-      "star": 1.5
+      "star": 1.59,
+      "page": "shoe"
     }
   ]
 }

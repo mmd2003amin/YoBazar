@@ -39,10 +39,10 @@ const FilterPrice = () => {
 
       <div className="centering justify-between mt-3 price-filter">
         <div className={`${priceUp < 900000 && priceUp > 450000 ? "bg-orange-500" : priceUp < 450000 ? "bg-green-500" : "bg-red-500"}`}>
-          {priceUp}
+          {priceUp.toLocaleString()}
         </div>
         <div className={`${priceLow < 900000 && priceLow > 450000 ? "bg-orange-500" : priceLow < 450000 ? "bg-green-500" : "bg-red-500"}`}>
-          {priceLow}
+          {priceLow.toLocaleString()}
         </div>
       </div>
 

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { CiFilter } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-import Filters from "./Filters";
-import { useNamePage } from "../hooks/useNamePage";
+import Filters from "../Filters";
+import { useNamePage } from "../../hooks/useNamePage";
 
 const MobileFilters = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -19,7 +19,7 @@ const MobileFilters = () => {
       </div>
 
       <div
-        className={`w-full h-full bg-white z-50 fixed duration-300 ${
+        className={`w-full h-full bg-white z-10 fixed duration-300 ${
           showMenu ? "opacity-100 top-0" : "opacity-0"
         }`}
       >
