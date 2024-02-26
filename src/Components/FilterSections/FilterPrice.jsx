@@ -32,7 +32,7 @@ const FilterPrice = () => {
       <hr />
       <RangeSlider
         value={range}
-        step={5}
+        step={4}
         onInput={setRange}
         className="h-3 my-7 rounded-md bg-[#353644] range-slide shadow-lg"
       />

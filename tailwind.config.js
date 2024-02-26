@@ -9,9 +9,9 @@ export default {
       vazirRegular: "vazirRegular",
     },
     extend: {
-      screens: { xs: "450px" },
+      screens: { xs: "450px", 1150:"1152px" },
       boxShadow: { cards: "0px 2px 8px rgba(99, 99, 99, 0.4)" },
-      transitionDuration: { 400: "400ms" },
+      transitionDuration: { 400: "400ms" , 1500:"1500ms",600:"600ms" },
       animation: {
         "move-bg": "move .75s linear infinite",
       },
@@ -22,7 +22,7 @@ export default {
           "50%": { backgroundPosition: "50% 0" },
           "75%": { backgroundPosition: "0% 0" },
           "100%": { backgroundPosition: "50% 0" },
-        },
+        }
       },
     },
   },

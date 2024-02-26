@@ -41,11 +41,15 @@
   }
 
   .quantity {
-    @apply text-white bg-black size-5 text-sm text-center rounded-full absolute bottom-3 right-6 z-10;
+    @apply text-white duration-300 bg-black size-5 text-sm text-center rounded-full absolute bottom-3 right-6 z-10;
   }
 
   .list-menu li {
     @apply centering mr-5 py-3 text-sm cursor-pointer hover:text-red-500 transition-all;
+  }
+
+  .button-header {
+    @apply size-6 mr-4 cursor-pointer hover:scale-125 duration-300;
   }
 
   .icons-footer div {
@@ -140,5 +144,41 @@
 
   .buttons-details div {
     @apply transition-all centering rounded-3xl p-3 px-6 text-white mb-2 sm:ml-1 cursor-pointer sm:w-2/5 md:w-5/6;
+  }
+
+  .form-inputs div {
+    @apply relative centering items-start mb-[30px] text-[#7395ae];
+  }
+
+  .form-inputs div div span {
+    @apply text-red-500 absolute top-10 text-sm text-center;
+  }
+
+  .form-inputs div input {
+    @apply bg-transparent border-b w-[96%] xs:w-64 border-[#7395ae] p-1 px-2 outline-none mr-2 z-[1] text-[#5d5c61];
+  }
+
+  .form-inputs div p {
+    @apply duration-200 absolute left-0;
+  }
+
+  .dashboard div {
+    @apply centering justify-start sm:mb-10 border border-black hover:bg-black hover:text-white transition-all rounded-lg w-40 cursor-pointer p-2;
+  }
+
+  .dashboard svg {
+    @apply size-5 ml-2
+  }
+
+  .account div {
+    @apply mb-3 centering text-sm md:text-base
+  }
+
+  .account div p {
+    @apply text-[#5d5c61] mr-1
+  }
+
+  .edit-profile {
+    @apply cursor-pointer absolute size-9 bottom-2.5 right-2.5 bg-cyan-600 p-2.5 rounded-full;
   }
 }

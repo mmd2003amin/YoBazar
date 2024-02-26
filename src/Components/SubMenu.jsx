@@ -9,7 +9,7 @@ const SubMenu = ({ showSubMenu, setShowSubMenu, data: { data, nameSub } }) => {
       onMouseEnter={() => setShowSubMenu(true)}
       onMouseLeave={() => setShowSubMenu(false)}
       className={`${
-        showSubMenu ? "translate-y-0" : "translate-y-[-400px]"
+        showSubMenu ? "translate-y-0" : "translate-y-[-450px]"
       } fixed z-[4] top-[100px] bg-white shadow-md duration-500 h-64 w-full grid grid-cols-5 px-5`}
     >
       {data.map((list) => (
@@ -42,10 +42,10 @@ const SubMenu = ({ showSubMenu, setShowSubMenu, data: { data, nameSub } }) => {
       ))}
 
       {nameSub === "مردانه" ? (
-        <Link to="man"><img src={manImage} alt="man" className="h-64 w-96 mr-40" /></Link>
+        <img src={manImage} alt="man" className="h-64 w-96 mr-40" />
       ) : (
         nameSub === "زنانه" && (
-          <Link to="man"><img src={womanImage} alt="man" className="h-64 w-96 mr-40" /></Link>
+          <img src={womanImage} alt="man" className="h-64 w-96 mr-40" />
         )
       )}
     </div>

@@ -32,7 +32,7 @@ const Card = ({ data , name }) => {
             className={`w-full h-full rounded-md ${hover && "scale-105"} duration-300`}
           />
 
-          <div className={`details-cards ${!hover && "-left-9"}`}>
+          <div className={`details-cards ${!hover && "md:-left-9"}`}>
             {detailsCardsData.map((item) => (
               <div key={item.id} className="mb-2 group centering">
                 <p className={`title-details-cards`}>
@@ -45,7 +45,7 @@ const Card = ({ data , name }) => {
             ))}
           </div>
 
-          <div className={`add-to-cart ${!hover && "-bottom-10"}`}>
+          <div className={`add-to-cart ${!hover && "md:-bottom-10"}`}>
             افزودن به سبد خرید
           </div>
         </div>

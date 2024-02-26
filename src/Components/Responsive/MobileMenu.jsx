@@ -23,7 +23,7 @@ const MobileMenu = ({ showMenu, setShowMenu }) => {
         {ItemsMenu.map((item) => (
           <li onClick={() => setShowMenu(false)} key={item.id}>
             <Link to={item.path} className="centering justify-between w-full">
-              <span>{item.name}</span>
+              <span>{item.name[1]}</span>
               <IoIosArrowForward />
             </Link>
           </li>

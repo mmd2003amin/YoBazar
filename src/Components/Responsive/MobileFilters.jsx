@@ -19,8 +19,8 @@ const MobileFilters = () => {
       </div>
 
       <div
-        className={`w-full h-full bg-white z-10 fixed duration-300 ${
-          showMenu ? "opacity-100 top-0" : "opacity-0"
+        className={`w-full h-full bg-white fixed top-0 duration-300 ${
+          showMenu ? "opacity-100 z-10" : "opacity-0 -z-[30]"
         }`}
       >
         <div className="w-11/12 mx-auto">

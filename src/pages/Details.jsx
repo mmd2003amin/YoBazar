@@ -6,7 +6,7 @@ import About from "./DetailsProducts/About";
 import Card from "./MainPage/Card";
 
 const Details = () => {
-  const { id } = useParams();
+  const { page , id} = useParams();
   window.scrollTo(0,0);
     
   const allData = [
@@ -18,7 +18,7 @@ const Details = () => {
     ...data.glasses,
     ...data.watch,
   ];
-
+console.log();
   const find = data && allData.find((i) => i.id === +id);
   const relatedProducts =
     data &&

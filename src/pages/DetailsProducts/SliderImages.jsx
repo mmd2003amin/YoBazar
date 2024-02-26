@@ -7,7 +7,7 @@ import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 
 const SliderImages = ({ images }) => {
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full overflow-hidden mx-auto">
       <Swiper
         effect={"cards"}
         loop={true}
