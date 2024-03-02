@@ -31,10 +31,10 @@ const MobileGroupButton = ( { showMenu , setShowMenu } ) => {
         <GrHomeRounded className="size-6" />
       </Link>
 
-      <div className="relative">
+      <Link to="favorites" className="relative">
         <FiHeart className="size-6" />
         <span className="quantity bottom-3 right-3">0</span>
-      </div>
+      </Link>
 
       <div className="relative">
         <BsCart3 className="size-6" />

@@ -12,6 +12,7 @@ import Details from "../pages/Details";
 import Auth from "../pages/auth";
 import NotFound from "../pages/NotFound";
 import Dashboard from "../pages/Dashboard";
+import Favorites from "../pages/Favorites";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path=":page/:id" element={<Details />} />
           <Route path="auth" element={<Auth />}/>
           <Route path="dashboard" element={<Dashboard />} />
+          <Route path="favorites" element={<Favorites />} />
           <Route path="*" element={<NotFound />}/>
         </Routes>
       </Layout>

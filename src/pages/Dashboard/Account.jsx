@@ -26,7 +26,7 @@ const Account = (data) => {
   const profile = localStorage.getItem("profile") || null;
 
   return (
-    <div className="w-11/12 xs:w-4/5 lg:w-2/3 mx-auto mt-5 sm:mt-0 sm:mr-16 p-4 shadow-2xl rounded-2xl centering justify-between flex-col-reverse lg:flex-row">
+    <div className="w-11/12 xs:w-4/5 lg:w-2/3 mx-auto mt-5 sm:mt-10 sm:mr-10 p-4 shadow-2xl rounded-2xl centering justify-between flex-col-reverse lg:flex-row">
       <Notify />
       <div className="account items-start centering flex-col">
         <div>

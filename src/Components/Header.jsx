@@ -76,10 +76,10 @@ const Header = () => {
             <LuUser2 className="button-header hover:text-green-600" title="ورود | ثبت‌نام"/>
           </Link>
 
-          <div className="relative group">
+          <Link to="favorites" className="relative group">
             <FiHeart className="button-header group-hover:text-red-600" />
             <span className="quantity group-hover:bg-red-600">0</span>
-          </div>
+          </Link>
           <div className="relative group">
             <BsCart3 className="button-header group-hover:text-cyan-700" />
             <span className="quantity group-hover:bg-cyan-700">0</span>

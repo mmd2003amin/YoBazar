@@ -2,10 +2,29 @@ import React from "react";
 import { FaStar } from "react-icons/fa6";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
+import { useDispatch, useSelector } from "react-redux";
+import { addFavorites , deleteFavorites } from "../../features/favorites/favoritesSlice";
+import Notify, { notify } from "../../utils/Notify";
 
 const About = ({ data }) => {
+  const favorites = useSelector((state) => state.favorites.products);
+  const dispatch = useDispatch();
+  const haveFavorites = favorites && favorites.find(item => item.id === data.id)
+  const filterFavorites = favorites && favorites.filter(item => item.id !== data.id);
+
+  const addToFavoritesHandler = () => {
+    if (!haveFavorites) {
+      dispatch(addFavorites(data));
+      notify("success","به علاقه‌مندی‌اضافه شد!");
+    } else {
+      dispatch(deleteFavorites(filterFavorites));
+      notify("success","از علاقه‌مندی حذف شد!");
+    }
+  };
+
   return (
     <div className="mt-16 p-5 w-full md:mr-14 lg:mr-0">
+      <Notify />
       <h1 className="text-xl font-vazirBold">{data.name}</h1>
 
       <div className="centering justify-start mt-3">
@@ -38,12 +57,16 @@ const About = ({ data }) => {
       <hr />
 
       <div className="buttons-details mt-3 centering justify-start sm:justify-center md:justify-start flex-col sm:flex-row md:flex-col lg:flex-row">
-        <div className="bg-cyan-700 hover:bg-cyan-800">
+        <div className="bg-cyan-700 hover:bg-cyan-800 text-white">
           <p>افزودن به سبد‌خرید</p>
           <IoCartOutline className="mr-2 size-5"/>
         </div>
-        <div className="bg-red-500 hover:bg-red-600">
-          <p>افزودن به علاقه‌مندی</p>
+        <div
+         onClick={addToFavoritesHandler}
+         className={`${haveFavorites ? "bg-red-600 text-white" : "text-red-600 bg-white border border-red-600"}`}
+        >
+          {!haveFavorites && <p>افزودن به علاقه‌مندی</p>}
+          {haveFavorites && <p>حذف از علاقه‌مندی</p>}
           <IoMdHeartEmpty className="mr-2 size-5"/>
         </div>
       </div>

@@ -84,12 +84,12 @@
     @apply centering items-end flex-col absolute top-3 left-3 duration-400;
   }
 
-  .title-details-cards {
-    @apply hidden group-hover:flex ml-1 group-hover:bg-black group-hover:text-white w-fit h-8 p-1 px-3 rounded-2xl text-sm transition-all;
+  .details-cards p {
+    @apply hidden ml-1 bg-black text-white w-fit h-8 p-1 px-3 rounded-2xl text-sm transition-all;
   }
 
-  .icon-details-cards {
-    @apply rounded-full bg-white group-hover:bg-black shadow-lg group-hover:text-white size-8 centering p-1 transition-all;
+  .details-cards i {
+    @apply bg-white rounded-full shadow-lg size-8 centering p-1 transition-all
   }
 
   .banner-bottom {
@@ -143,7 +143,7 @@
   }
 
   .buttons-details div {
-    @apply transition-all centering rounded-3xl p-3 px-6 text-white mb-2 sm:ml-1 cursor-pointer sm:w-2/5 md:w-5/6;
+    @apply transition-all centering rounded-3xl p-3 px-6 mb-2 sm:ml-1 cursor-pointer sm:w-2/5 md:w-5/6;
   }
 
   .form-inputs div {
@@ -163,7 +163,7 @@
   }
 
   .dashboard div {
-    @apply centering justify-start sm:mb-10 border border-black hover:bg-black hover:text-white transition-all rounded-lg w-40 cursor-pointer p-2;
+    @apply centering justify-start sm:mb-10 border border-black transition-all rounded-lg w-40 cursor-pointer p-2;
   }
 
   .dashboard svg {
