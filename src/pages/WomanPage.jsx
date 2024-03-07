@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchData } from "../features/data/dataSlice";
-import Products from "./Products";
+import Products from "./modules/Products";
 
 const WomanPage = () => {
   const data = useSelector((state) => state.data.products.cardsWoman);

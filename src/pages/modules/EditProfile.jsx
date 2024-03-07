@@ -6,7 +6,7 @@ import { FaPencilAlt, FaTrash } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 
 const EditProfile = ({ setEdit, data }) => {
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
   const navigate = useNavigate();
   const profile = localStorage.getItem("profile") || null;
 
@@ -31,7 +31,7 @@ const EditProfile = ({ setEdit, data }) => {
   };
 
   return (
-    <div className="bg-header size-full z-10 absolute bottom-0 right-0 centering">
+    <div className="bg-header centering z-10 fixed top-0 right-0 centering w-full h-full">
       <div className="w-11/12 sm:w-2/3 lg:w-1/3 h-4/5 bg-white rounded-xl shadow-2xl centering flex-col justify-start p-5">
         <div className="w-full centering justify-between border-b pb-5">
           <p>تصویر پروفایل</p>

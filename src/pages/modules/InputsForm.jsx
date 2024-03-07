@@ -1,6 +1,6 @@
 import React from "react";
 import { Field } from "formik";
-import formData from "../constant/formData";
+import formData from "../../constant/formData";
 
 const InputsForm = ({ errors, touched, animate, animateHandler }) => {
   return (

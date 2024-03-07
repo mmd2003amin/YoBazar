@@ -3,6 +3,8 @@ import MobileGroupButton from "./Responsive/MobileGroupButton";
 import MobileMenu from "./Responsive/MobileMenu";
 import SubMenu from "./SubMenu";
 import Search from "./Search";
+import { useSelector } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
 
 //Data
 import {
@@ -20,7 +22,6 @@ import { IoIosSearch, IoIosArrowUp } from "react-icons/io";
 import { LuUser2 } from "react-icons/lu";
 import { FiHeart, FiLogOut } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";
-import { Link, useNavigate } from "react-router-dom";
 import { GoHome } from "react-icons/go";
 
 const Header = () => {
@@ -31,6 +32,9 @@ const Header = () => {
     data: PagesSubMenu,
     nameSub: "صفحات",
   });
+
+  const qtyFavorites = useSelector(state => state.favorites.products);
+  const qtyCart = useSelector(state => state.cart.totalQuantity);
 
   const showSubMenuHandler = (e, id) => {
     const name = e.target.innerText;
@@ -55,6 +59,7 @@ const Header = () => {
   const logoutHandler = () => {
     localStorage.clear();
     navigate("/");
+    window.location.reload();
   };
 
   return (
@@ -78,12 +83,13 @@ const Header = () => {
 
           <Link to="favorites" className="relative group">
             <FiHeart className="button-header group-hover:text-red-600" />
-            <span className="quantity group-hover:bg-red-600">0</span>
+            <span className="quantity group-hover:bg-red-600">{qtyFavorites.length}</span>
           </Link>
-          <div className="relative group">
+
+          <Link to="cart" className="relative group">
             <BsCart3 className="button-header group-hover:text-cyan-700" />
-            <span className="quantity group-hover:bg-cyan-700">0</span>
-          </div>
+            <span className="quantity group-hover:bg-cyan-700">{qtyCart}</span>
+          </Link>
         </div>
 
         <Link to="/" className="md:mb-8">

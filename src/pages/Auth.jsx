@@ -4,7 +4,7 @@ import { signUpSchema } from "../utils/validation";
 import { useNavigate } from "react-router-dom";
 import Notify, { notify } from "../utils/Notify";
 import authHandler from "../utils/authorization";
-import InputsForm from "./InputsForm";
+import InputsForm from "./modules/InputsForm";
 
 const Auth = () => {
   const [animate, setAnimate] = useState(false);

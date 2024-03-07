@@ -1,14 +1,13 @@
 import React from "react";
-import SliderHeader from "./MainPage/SliderHeader";
-import Pages from "./MainPage/Pages";
-import BannersTop from "./MainPage/BanersTop";
-import AmazingSlider from "./MainPage/AmazingSlider";
-import BannersBottom from "./MainPage/BannersBottom";
-import Cards from "./MainPage/Cards";
-import SliderFooter from "./MainPage/SliderFooter";
+import SliderHeader from "./modules/SliderHeader";
+import Pages from "./modules/Pages";
+import BannersTop from "./modules/BanersTop";
+import AmazingSlider from "./modules/AmazingSlider";
+import BannersBottom from "./modules/BannersBottom";
+import Cards from "./modules/Cards";
+import SliderFooter from "./modules/SliderFooter";
 
 const MainPage = () => {
-  window.scrollTo(0,0);
   return (
     <div>
       <SliderHeader />

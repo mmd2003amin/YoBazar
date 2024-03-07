@@ -5,9 +5,9 @@ import "swiper/css/effect-cards";
 import { EffectCards, Navigation } from "swiper/modules";
 import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 
-const SliderImages = ({ images }) => {
+const SliderDetails = ({ images }) => {
   return (
-    <div className="w-full overflow-hidden mx-auto">
+    <div className="w-full h-[26rem] overflow-hidden mx-auto">
       <Swiper
         effect={"cards"}
         loop={true}
@@ -33,4 +33,4 @@ const SliderImages = ({ images }) => {
   );
 };
 
-export default SliderImages;
+export default SliderDetails;

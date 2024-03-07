@@ -1,13 +1,12 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import data from "../../public/data.json";
-import SliderImages from "./DetailsProducts/SliderImages";
-import About from "./DetailsProducts/About";
-import Card from "./MainPage/Card";
+import SliderDetails from "./modules/SliderDetails";
+import About from "./modules/About";
+import Card from "./modules/Card";
 
 const Details = () => {
-  const { page , id} = useParams();
-  window.scrollTo(0,0);
+  const {id} = useParams();
     
   const allData = [
     ...data.amazing,
@@ -30,7 +29,7 @@ console.log();
     <>
       <div className="mt-10">
         <div className="mt-120 centering flex-col md:flex-row items-start md:items-center w-11/12 mx-auto">
-          <SliderImages
+          <SliderDetails
             images={[find.image1, find.image2, find.image3, find.image4]}
           />
           <About data={find} />

@@ -7,14 +7,19 @@ import { BsCart3 } from "react-icons/bs";
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 import { Link, useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const MobileGroupButton = ( { showMenu , setShowMenu } ) => {
+  const qtyFavorites = useSelector(state => state.favorites.products);
+  const qtyCart = useSelector(state => state.cart.totalQuantity);
+
   const user = localStorage.getItem("user");
   const navigate = useNavigate();
 
   const logoutHandler = () => {
     localStorage.clear();
     navigate("/");
+    window.location.reload();
   };
 
   return (
@@ -33,13 +38,13 @@ const MobileGroupButton = ( { showMenu , setShowMenu } ) => {
 
       <Link to="favorites" className="relative">
         <FiHeart className="size-6" />
-        <span className="quantity bottom-3 right-3">0</span>
+        <span className="quantity bottom-3 right-3">{qtyFavorites.length}</span>
       </Link>
 
-      <div className="relative">
+      <Link to="cart" className="relative">
         <BsCart3 className="size-6" />
-        <span className="quantity bottom-3 right-3 ">0</span>
-      </div>
+        <span className="quantity bottom-3 right-3 ">{qtyCart}</span>
+      </Link>
     </div>
   );
 };

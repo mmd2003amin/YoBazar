@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "./MainPage/Card";
-import Loader from "../Components/Loader";
-import Filters from "../Components/Filters";
-import MobileFilters from "../Components/Responsive/MobileFilters";
+import Card from "./Card";
+import Loader from "../../Components/Loader";
+import Filters from "../../Components/Filters";
+import MobileFilters from "../../Components/Responsive/MobileFilters";
 import { useSelector } from "react-redux";
+import Notify from "../../utils/Notify";
 
 const Products = ({ data }) => {
-  window.scrollTo(0, 0);
   const filter = useSelector((state) => state.filter);
   const filterHave = filter.haveProduct
     ? data.filter((item) => item.price !== "ناموجود")
@@ -44,6 +44,7 @@ const Products = ({ data }) => {
 
   return (
     <>
+      <Notify />
       {!!data ? (
         <div className="mx-auto centering flex-col md:flex-row items-start mt-10 w-[98%]">
           <div className="w-full md:w-[30%] lg:w-1/5 ml-4 md:ml-8">

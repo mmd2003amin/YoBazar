@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from "react";
 import authHandler from "../utils/authorization";
 
-import Account from "./Dashboard/Account";
+import Account from "./modules/Account";
 import dashboardData from "../constant/dashboardData";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Favorites from "./Favorites";
+import Cart from "./Cart";
 
 const Dashboard = () => {
   const user = JSON.parse(localStorage.getItem("user"));
   const favorites = useSelector(state => state.favorites.products);
+  const cartProducts = useSelector(state => state.favorites.products);
   const [data, setData] = useState({ name: "حساب کاربری", data: user });
   
   useEffect(() => authHandler, []);
@@ -18,10 +20,10 @@ const Dashboard = () => {
   const dataHandler = (e) => {
     const name = e.target.dataset.name;
 
-    {name === "خروج" && (navigate("/"),localStorage.clear())}
+    {name === "خروج" && (navigate("/"),localStorage.clear(),window.location.reload())}
     {name === "حساب کاربری" && setData({ name: name, data: user })}
     {name === "علاقه‌مندی" && setData({ name: name, data: favorites })}
-    {name === "سبدخرید" && setData({ name: name, data: "" })}
+    {name === "سبدخرید" && setData({ name: name, data: cartProducts })}
   };
 
   return (
@@ -43,6 +45,7 @@ const Dashboard = () => {
       <div className="w-full">
         {data.name === "حساب کاربری" && <Account data={data.data} />}
         {data.name === "علاقه‌مندی" && <Favorites data={data.data} />}
+        {data.name === "سبدخرید" && <Cart data={data.data} />}
       </div>
     </div>
   );

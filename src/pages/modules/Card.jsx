@@ -2,18 +2,22 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addFavorites, deleteFavorites } from "../../features/favorites/favoritesSlice";
-import Notify, { notify } from "../../utils/Notify";
+import { addToCart, removeItem } from "../../features/cart/cartSlice";
+import { notify } from "../../utils/Notify";
 import { IoMdStats, IoIosSearch, IoMdHeart } from "react-icons/io";
 
 const Card = ({ data , name }) => {
   const [hover, setHover] = useState(null);
-  const page = window.location.pathname;
   const navigate = useNavigate();
   
   const favorites = useSelector((state) => state.favorites.products);
+  const cart = useSelector((state) => state.cart.products);
   const dispatch = useDispatch();
+
   const haveFavorites = favorites && favorites.find(item => item.id === data.id)
   const filterFavorites = favorites && favorites.filter(item => item.id !== data.id);
+
+  const haveCart = cart && cart.find(item => item.id === data.id)
 
   const addToFavoritesHandler = (e) => {
     e.stopPropagation();
@@ -22,26 +26,30 @@ const Card = ({ data , name }) => {
       dispatch(addFavorites(data));
       notify("success","به علاقه‌مندی‌اضافه شد!");
     } else if(haveFavorites) {
-      e.stopPropagation();
       dispatch(deleteFavorites(filterFavorites));
       notify("success","از علاقه‌مندی حذف شد!");
     }
   };
 
+  const addToCartHandler = (e) => {
+    e.stopPropagation();
+    
+    if (!haveCart) {
+      dispatch(addToCart(data));
+      notify("success","به سبدخرید اضافه شد!");
+    } else if(haveCart) {
+      dispatch(removeItem(data));
+      notify("success","از سبدخرید حذف شد!");
+    }
+  }
+
   return (
     <div 
      onMouseEnter={() => setHover(true)} 
      onMouseLeave={() => setHover(null)} 
-     onClick={() => navigate(
-      `${name === "detail" || page === `${page}/${data.id}`
-      ? `/${data.page}/${data.id}` 
-      : `${page === "/" 
-      ? `${data.page}/${data.id}` 
-      : `${page === `${page}/${data.id}`}` 
-      && `/${data.page}/${data.id}`}`}`)}
+     onClick={() => navigate(`/${data.page}/${data.id}`)}
      className={`cursor-pointer ${name !== "slider" ? "shadow-xl rounded-md" : "pb-5"}`}
     >
-      <Notify />
       <p className={`${name !== "slider" && "hidden"} h-fit z-20 w-24 absolute -top-4 -right-2 p-1 rounded-sm text-sm text-center -rotate-90 text-white bg-red-600`}>
         {data.discount}
       </p>
@@ -79,8 +87,10 @@ const Card = ({ data , name }) => {
           </div>
         </div>
 
-        <div className={`add-to-cart ${!hover && "md:-bottom-10"}`}>
-          افزودن به سبد خرید
+        <div
+         onClick={addToCartHandler} 
+         className={`add-to-cart ${haveCart ? "bg-red-600 hover:bg-red-700" : "bg-cyan-800 hover:bg-cyan-900"} ${!hover && "md:-bottom-10"}`}>
+          {haveCart ? "حذف از سبد خرید" : "افزودن به سبد خرید" }
         </div>
       </div>
 

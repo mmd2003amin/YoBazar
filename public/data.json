@@ -19,7 +19,9 @@
       "price": 480000,
       "priceDiscount": 180000,
       "discount": "20%",
-      "page": "woman"
+      "page": "woman",
+      "view": 264,
+      "star": 2.6
     },
     {
       "id": 2,
@@ -37,7 +39,9 @@
       "price": 850000,
       "priceDiscount": 560000,
       "discount": "33%",
-      "page": "man"
+      "page": "man",
+      "view": 171,
+      "star": 2.6
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "price": 620000,
       "priceDiscount": 490000,
       "discount": "20%",
-      "page": "woman"
+      "page": "woman",
+      "view": 745,
+      "star": 4.0
     },
     {
       "id": 4,
@@ -76,7 +82,9 @@
       "price": 490000,
       "priceDiscount": 570000,
       "discount": "55%",
-      "page": "man"
+      "page": "man",
+      "view": 471,
+      "star":8.4
     },
     {
       "id": 5,
@@ -94,7 +102,9 @@
       "price": 400000,
       "priceDiscount": 360000,
       "discount": "14%",
-      "page": "woman"
+      "page": "woman",
+      "view": 659,
+      "star": 9.5
     },
     {
       "id": 6,
@@ -112,7 +122,9 @@
       "price": 730000,
       "priceDiscount": 690000,
       "discount": "5%",
-      "page": "man"
+      "page": "man",
+      "view": 927,
+      "star": 6.2
     }
   ],
 
@@ -135,7 +147,6 @@
       "price": 490000,
       "view": 620,
       "star": 4.5,
-      "page": "man",
       "page": "man"
     },
     {
@@ -155,7 +166,6 @@
       "price": "ناموجود",
       "view": 675,
       "star": 6.5,
-      "page": "man",
       "page": "man"
     },
     {

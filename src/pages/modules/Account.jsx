@@ -65,8 +65,7 @@ const Account = (data) => {
           className="size-9 rounded-full absolute bottom-2.5 right-2.5 opacity-0"
         />
       </div>
-
-      {edit && <EditProfile setEdit={setEdit} data={data} />}
+      {!!edit && <EditProfile setEdit={setEdit} data={data} />}
     </div>
   );
 };

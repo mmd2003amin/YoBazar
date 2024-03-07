@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchData } from "../../features/data/dataSlice";
 import Card from "./Card";
+import Notify from "../../utils/Notify";
 
 const Cards = () => {
   const data = useSelector((state) => state.data.products);
@@ -20,6 +21,7 @@ const Cards = () => {
 
   return (
     <>
+    <Notify />
       <div className="hed-cads-main">جدید ترین محصولات جهان مد</div>
       <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-11/12 md:w-[98%] mx-auto gap-5 mt-5">
         {data.cardsMan &&
