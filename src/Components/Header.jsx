@@ -82,14 +82,14 @@ const Header = () => {
 
           <Link to="favorites" className="relative group">
             <FiHeart className="button-header group-hover:text-red-600" />
-            <span className="quantity pt-1 group-hover:bg-red-600">
+            <span className="quantity group-hover:bg-red-600">
               {qtyFavorites.length.toLocaleString()}
             </span>
           </Link>
 
           <Link to="cart" className="relative group">
             <BsCart3 className="button-header group-hover:text-cyan-700" />
-            <span className="quantity pt-1 group-hover:bg-cyan-700">
+            <span className="quantity group-hover:bg-cyan-700">
               {qtyCart.toLocaleString()}
             </span>
           </Link>
