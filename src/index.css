@@ -41,7 +41,7 @@
   }
 
   .quantity {
-    @apply text-white duration-300 bg-black size-5 text-sm text-center rounded-full absolute bottom-3 right-6 z-10;
+    @apply text-white duration-300 bg-black size-5 text-sm centering rounded-full absolute bottom-3 right-6 z-10;
   }
 
   .list-menu li {

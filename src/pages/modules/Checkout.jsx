@@ -35,7 +35,7 @@ const Checkout = ({ setShowModal }) => {
 
           <div className="flex justify-between mx-5 mt-4 text-sky-950">
             <p className="ml-1.5">تعداد:</p>
-            <span>{data.totalQuantity}</span>
+            <span>{data.totalQuantity.toLocaleString()}</span>
           </div>
         </div>
 

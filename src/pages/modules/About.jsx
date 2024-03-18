@@ -74,7 +74,7 @@ const About = ({ data }) => {
       <div className="buttons-details mt-3 centering justify-start sm:justify-center md:justify-start flex-col sm:flex-row md:flex-col lg:flex-row">
         <div
          onClick={addToCartHandler}
-         className={`${haveCart ? "bg-cyan-700 text-white" : "text-cyan-700 bg-white border border-cyan-700"}`}
+         className={`${haveCart ? "bg-cyan-700 text-white" : "text-cyan-700 bg-white"} border border-cyan-700`}
         >
           {!haveCart && <p>افزودن به سبد خرید</p>}
           {haveCart && <p>حذف از سبد خرید</p>}
@@ -83,7 +83,7 @@ const About = ({ data }) => {
 
         <div
          onClick={addToFavoritesHandler}
-         className={`${haveFavorites ? "bg-red-600 text-white" : "text-red-600 bg-white border border-red-600"}`}
+         className={`${haveFavorites ? "bg-red-600 text-white" : "text-red-600 bg-white"} border border-red-600`}
         >
           {!haveFavorites && <p>افزودن به علاقه‌مندی</p>}
           {haveFavorites && <p>حذف از علاقه‌مندی</p>}

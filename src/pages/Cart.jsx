@@ -35,7 +35,7 @@ const Cart = () => {
 
             <div className="flex justify-between mx-5 mt-4 text-sky-950">
               <p className="ml-1.5">تعداد:</p>
-              <span>{data.totalQuantity}</span>
+              <span>{data.totalQuantity.toLocaleString()}</span>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ const Cart = () => {
         </div>
       </div>
 
-      <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-3 1150:grid-cols-4 mt-16 mx-3">
+      <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-3 1150:grid-cols-4  mt-16 mx-3">
         {!data.products.length &&
           cartEmptyData.map((item) => (
             <Link to={item.path} key={item.id}>

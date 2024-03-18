@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import ScrollToTop from "../utils/ScrollToTop"; 
+import ScrollToTop from "../utils/ScrollToTop";
 import Layout from "../Layout/Layout";
 import MainPage from "../pages/MainPage";
 import ManPage from "../pages/ManPage";
@@ -17,6 +17,7 @@ import Favorites from "../pages/Favorites";
 import Cart from "../pages/Cart";
 
 const App = () => {
+  
   return (
     <div className="font-medium">
       <Layout>

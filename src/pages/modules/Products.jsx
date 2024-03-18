@@ -46,7 +46,7 @@ const Products = ({ data }) => {
     <>
       <Notify />
       {!!data ? (
-        <div className="mx-auto centering flex-col md:flex-row items-start mt-10 w-[98%]">
+        <div className="font-vazirMedium mx-auto centering flex-col md:flex-row items-start mt-10 w-[98%]">
           <div className="w-full md:w-[30%] lg:w-1/5 ml-4 md:ml-8">
             <div className="hidden md:block">
               <Filters />

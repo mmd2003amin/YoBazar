@@ -14,7 +14,7 @@ const Favorites = () => {
           ))}
         </div>
       ) : (
-        <div className="w-96 h-64 border-2 border-cyan-700 rounded-xl centering mx-auto mt-10 text-xl text-cyan-700">
+        <div className="w-11/12 sm:w-96 h-64 border-2 border-cyan-700 rounded-xl centering mx-auto mt-10 text-xl text-cyan-700">
           Empty
         </div>
       )}

@@ -10,7 +10,7 @@ const SubMenu = ({ showSubMenu, setShowSubMenu, data: { data, nameSub } }) => {
       onMouseLeave={() => setShowSubMenu(false)}
       className={`${
         showSubMenu ? "translate-y-0" : "translate-y-[-450px]"
-      } fixed z-[4] top-[100px] bg-white shadow-md duration-500 h-64 w-full grid grid-cols-5 px-5`}
+      } font-vazirMedium fixed z-[4] top-[100px] bg-white shadow-md duration-500 h-64 w-full grid grid-cols-5 px-5`}
     >
       {data.map((list) => (
         <div key={list.id} className="mt-7">

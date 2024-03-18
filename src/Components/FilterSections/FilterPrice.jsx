@@ -7,13 +7,13 @@ import { useDispatch } from "react-redux";
 
 const FilterPrice = () => {
   const [range, setRange] = useState([0, 100]);
-  const [priceLow, setPriceLow] = useState(-52400);
+  const [priceLow, setPriceLow] = useState(75000);
   const [prevPriceLow, setPrevPriceLow] = useState([]);
   const [priceUp, setPriceUp] = useState(1221600);
   const [prevPriceUp, setPrevPriceUp] = useState([]);
 
   const dispatch = useDispatch();
-
+  
   useEffect(() => {
     setPrevPriceLow([...prevPriceLow, range[0]]);
     const prevState = prevPriceLow[prevPriceLow.length - 1];

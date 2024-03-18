@@ -19,10 +19,9 @@ import ItemsMenu from "../constant/ItemsMenu";
 //Icons
 import logo from "../assets/logo.png";
 import { IoIosSearch, IoIosArrowUp } from "react-icons/io";
-import { LuUser2 } from "react-icons/lu";
+import { LuLogIn, LuUser2 } from "react-icons/lu";
 import { FiHeart, FiLogOut } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";
-import { GoHome } from "react-icons/go";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -66,7 +65,7 @@ const Header = () => {
     <>
       <div
         onClick={() => setShowSearch(false)}
-        className="sticky top-0 centering justify-between bg-header p-2 md:px-6 h-16 md:flex-row-reverse z-10"
+        className="font-vazirMedium sticky top-0 centering justify-between bg-header p-2 md:px-6 h-16 md:flex-row-reverse z-10"
       >
         <div className="hidden md:centering">
           <FiLogOut
@@ -74,21 +73,25 @@ const Header = () => {
            className={`${user ? "block" : "hidden"} button-header hover:text-red-600`}/>
 
           <Link to="dashboard" className={!user && "hidden"}>
-            <GoHome title="خانه" className="button-header hover:text-green-600"/>
+            <LuUser2 title="خانه" className="button-header hover:text-green-600"/>
           </Link>
 
           <Link to="auth" className={user && "hidden"}>
-            <LuUser2 className="button-header hover:text-green-600" title="ورود | ثبت‌نام"/>
+            <LuLogIn className="button-header hover:text-green-600" title="ورود | ثبت‌نام"/>
           </Link>
 
           <Link to="favorites" className="relative group">
             <FiHeart className="button-header group-hover:text-red-600" />
-            <span className="quantity group-hover:bg-red-600">{qtyFavorites.length}</span>
+            <span className="quantity pt-1 group-hover:bg-red-600">
+              {qtyFavorites.length.toLocaleString()}
+            </span>
           </Link>
 
           <Link to="cart" className="relative group">
             <BsCart3 className="button-header group-hover:text-cyan-700" />
-            <span className="quantity group-hover:bg-cyan-700">{qtyCart}</span>
+            <span className="quantity pt-1 group-hover:bg-cyan-700">
+              {qtyCart.toLocaleString()}
+            </span>
           </Link>
         </div>
 
@@ -120,7 +123,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="hidden md:centering w-full h-8 py-5 sticky top-16 shadow-md bg-header z-[5]">
+      <div className="font-vazirBold hidden md:centering w-full h-8 py-5 sticky top-16 shadow-md bg-header z-[5]">
         <ul className="list-menu centering">
           {ItemsMenu.map((item) => (
             <li key={item.id}>

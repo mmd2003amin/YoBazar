@@ -6,7 +6,7 @@ import About from "./modules/About";
 import Card from "./modules/Card";
 
 const Details = () => {
-  const {id} = useParams();
+  const { id } = useParams();
     
   const allData = [
     ...data.amazing,
